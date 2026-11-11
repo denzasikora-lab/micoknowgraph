@@ -22,7 +22,8 @@ permissions:
 
 jobs:
   offline-quality:
-    runs-on: ubuntu-latest
+    # Для Python 3.9 в manifests setup-python доступна сборка Ubuntu 24.04.
+    runs-on: ubuntu-24.04
     timeout-minutes: 10
     strategy:
       fail-fast: false
