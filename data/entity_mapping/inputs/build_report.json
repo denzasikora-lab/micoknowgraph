@@ -6,10 +6,13 @@
   "top1_is_ols_fill": 85,
   "rows_map_no": 190,
   "top1_changed_by_rerank": 114,
+  "duplicate_rows_merged": 20,
   "generic_unmapped": 4,
-  "unresolved": 24,
+  "unresolved": 5,
+  "curated_assigned": 18,
+  "no_class": 2,
   "entities": 553,
-  "rows_concepts": 1201,
+  "rows_concepts": 1189,
   "thomas_entities_not_in_sheet": 0,
   "ols_live_calls": 0
  },
@@ -1485,31 +1488,121 @@
    "yogurt food product"
   ]
  ],
+ "curated_assigned": [
+  [
+   "Cbbl Gene",
+   [
+    "GO:0016984"
+   ]
+  ],
+  [
+   "Cbbs Gene",
+   [
+    "GO:0016984"
+   ]
+  ],
+  [
+   "Circadian Rhythm Gene",
+   [
+    "GO:0007623"
+   ]
+  ],
+  [
+   "Esbl",
+   [
+    "ARO:3000001"
+   ]
+  ],
+  [
+   "Gpx Gene",
+   [
+    "GO:0004602"
+   ]
+  ],
+  [
+   "Gut Taxa",
+   [
+    "PCO:1000004",
+    "UBERON:0001555"
+   ]
+  ],
+  [
+   "Halophile",
+   [
+    "MICRO:0001367"
+   ]
+  ],
+  [
+   "Ndh Gene",
+   [
+    "GO:0003955"
+   ]
+  ],
+  [
+   "Non-Pathogen",
+   [
+    "IDO:0000528"
+   ]
+  ],
+  [
+   "Pot Trial",
+   [
+    "PECO:0007248"
+   ]
+  ],
+  [
+   "Psba Gene",
+   [
+    "GO:0009772"
+   ]
+  ],
+  [
+   "Psbb Gene",
+   [
+    "GO:0016168"
+   ]
+  ],
+  [
+   "Rbcl Gene",
+   [
+    "GO:0016984"
+   ]
+  ],
+  [
+   "Rbcs Gene",
+   [
+    "GO:0016984"
+   ]
+  ],
+  [
+   "Sod Gene",
+   [
+    "GO:0004784"
+   ]
+  ],
+  [
+   "Stress-Response Gene",
+   [
+    "GO:0006950"
+   ]
+  ],
+  [
+   "Virulence Gene",
+   [
+    "MESH:D037521"
+   ]
+  ]
+ ],
+ "no_class": [
+  "Keystone Species",
+  "Resource Partitioning"
+ ],
  "unresolved": [
   "Carbon Concentration Mechanism",
-  "Cbbl Gene",
-  "Cbbs Gene",
-  "Circadian Rhythm Gene",
   "Cloud Dissipation",
-  "Esbl",
-  "Gpx Gene",
-  "Gut Taxa",
-  "Halophile",
-  "Keystone Species",
-  "Ndh Gene",
-  "Non-Pathogen",
   "Plant Decomposition",
-  "Pot Trial",
-  "Psba Gene",
-  "Psbb Gene",
-  "Rbcl Gene",
-  "Rbcs Gene",
   "Relaxase",
-  "Resource Partitioning",
-  "Sod Gene",
-  "Stress-Response Gene",
-  "Th17/Treg Imbalance",
-  "Virulence Gene"
+  "Th17/Treg Imbalance"
  ],
  "top1_still_flagged": [],
  "thomas_entities_not_in_sheet": []
