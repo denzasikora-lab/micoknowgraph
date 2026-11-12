@@ -8,11 +8,10 @@
   "top1_changed_by_rerank": 114,
   "duplicate_rows_merged": 20,
   "generic_unmapped": 4,
-  "unresolved": 5,
-  "curated_assigned": 18,
+  "curated_assigned": 27,
   "no_class": 2,
   "entities": 553,
-  "rows_concepts": 1189,
+  "rows_concepts": 1193,
   "thomas_entities_not_in_sheet": 0,
   "ols_live_calls": 0
  },
@@ -1490,6 +1489,13 @@
  ],
  "curated_assigned": [
   [
+   "Carbon Concentration Mechanism",
+   [
+    "GO:0031470",
+    "GO:0015977"
+   ]
+  ],
+  [
    "Cbbl Gene",
    [
     "GO:0016984"
@@ -1505,6 +1511,12 @@
    "Circadian Rhythm Gene",
    [
     "GO:0007623"
+   ]
+  ],
+  [
+   "Cloud Dissipation",
+   [
+    "ENVO:02500003"
    ]
   ],
   [
@@ -1545,6 +1557,12 @@
    ]
   ],
   [
+   "Plant Decomposition",
+   [
+    "ECOCORE:00000186"
+   ]
+  ],
+  [
    "Pot Trial",
    [
     "PECO:0007248"
@@ -1575,6 +1593,13 @@
    ]
   ],
   [
+   "Relaxase",
+   [
+    "ICEO:0000036",
+    "GO:0004520"
+   ]
+  ],
+  [
    "Sod Gene",
    [
     "GO:0004784"
@@ -1584,6 +1609,14 @@
    "Stress-Response Gene",
    [
     "GO:0006950"
+   ]
+  ],
+  [
+   "Th17/Treg Imbalance",
+   [
+    "HP:0025830",
+    "HP:0020113",
+    "HP:0031392"
    ]
   ],
   [
@@ -1597,13 +1630,7 @@
   "Keystone Species",
   "Resource Partitioning"
  ],
- "unresolved": [
-  "Carbon Concentration Mechanism",
-  "Cloud Dissipation",
-  "Plant Decomposition",
-  "Relaxase",
-  "Th17/Treg Imbalance"
- ],
+ "unresolved": [],
  "top1_still_flagged": [],
  "thomas_entities_not_in_sheet": []
 }

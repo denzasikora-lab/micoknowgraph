@@ -113,7 +113,7 @@ Calvin-Benson-Bassham Cycle: {kind: pathway-or-process, query: [reductive pentos
 Cam Pathway: {kind: pathway-or-process, canonical: CAM pathway, query: [crassulacean acid metabolism, CAM photosynthesis]}
 Carbapenem: {kind: drug-or-therapy, query: carbapenems}
 Carbapenemase: {kind: gene-product, prefer: [ARO, GO], query: [carbapenemase, beta-lactamase activity], rationale: "ARO has carbapenemase families (KPC, NDM, OXA-48) but no umbrella class; GO beta-lactamase activity is the function"}
-Carbon Concentration Mechanism: {kind: pathway-or-process, canonical: Carbon concentrating mechanism, query: [carbon dioxide concentrating mechanism, carbon concentrating mechanism]}
+Carbon Concentration Mechanism: {kind: pathway-or-process, canonical: Carbon concentrating mechanism, query: [carbon dioxide concentrating mechanism, carbon concentrating mechanism], assign: [{id: "GO:0031470", match: component, note: "GO has no carbon (dioxide) concentrating mechanism process; the carboxysome is the CCM structure (cellular component), curated 2026-11-12"}, {id: "GO:0015977", match: broader, note: "the process class if one is needed; GO:0019685 photosynthesis, dark reaction is the alternative"}]}
 Carbon Cycling: {kind: pathway-or-process, prefer: [ENVO, GO], rationale: "ecosystem process; ENVO has it as a process, GO does not"}
 Carbon Fixation Pathway: {kind: pathway-or-process, query: carbon fixation}
 Carbonic Anhydrase: {kind: gene-product, query: carbonate dehydratase activity, wrong: {"MESH:D024401": "Carbonic Anhydrase I is one human isozyme, not the enzyme class"}}
@@ -145,7 +145,7 @@ Cl⁻ Concentration: {kind: measurement, canonical: Cl- concentration}
 Clay: {kind: environment, query: clay}
 Clostridium: {kind: taxon}
 Clostridium Scindens: {kind: taxon, query: "[Clostridium] scindens", rationale: "NCBI keeps the genus in square brackets"}
-Cloud Dissipation: {kind: event-or-exposure, query: [cloud dissipation, cloud dissipation process], rationale: "atmospheric process, ENVO"}
+Cloud Dissipation: {kind: event-or-exposure, query: [cloud dissipation, cloud dissipation process], rationale: "atmospheric process, ENVO", assign: [{id: "ENVO:02500003", match: broader, note: "ENVO has cloud formation process (ENVO:01001083) but no inverse; atmospheric process is the broader fallback until a cloud dissipation process term is requested from ENVO, curated 2026-11-12"}]}
 Cloud Droplet Size: {kind: measurement}
 Cloud Droplets: {kind: environment, query: cloud droplet}
 Cloud Formation: {kind: event-or-exposure, rationale: "atmospheric process, ENVO"}
@@ -420,7 +420,7 @@ Pigments: {kind: chemical, query: pigment, wrong: {"NCIT:C38005": "Pigmentation 
 Pipeline Parameter: {kind: method-or-procedure}
 Piperacillin-Tazobactam: {kind: drug-or-therapy, query: piperacillin-tazobactam}
 Planctomycetes: {kind: taxon, query: Planctomycetota, rationale: "NCBI now calls the phylum Planctomycetota"}
-Plant Decomposition: {kind: pathway-or-process, prefer: [ENVO, GO], query: [decomposition, plant litter decomposition], rationale: "ecosystem process"}
+Plant Decomposition: {kind: pathway-or-process, prefer: [ENVO, GO], query: [decomposition, plant litter decomposition], rationale: "ecosystem process", assign: [{id: "ECOCORE:00000186", match: exact, note: "ENVO and GO have no decomposition process class; ECOCORE litter decomposition is the plant-material decomposition process (parent ECOCORE:00000058 decomposition; substrate ENVO:01000628 plant litter), curated 2026-11-12"}]}
 Plasma: {kind: sample-material, query: blood plasma, wrong: {"ENVO:01000798": "ENVO plasma is the physical state of matter"}}
 Plasmid: {kind: mobile-element}
 Plasmid Rearrangement: {kind: pathway-or-process, prefer: [GO, SO], query: [DNA rearrangement, DNA recombination]}
@@ -452,7 +452,7 @@ Reactive Oxygen Species: {kind: chemical}
 Redox Potential: {kind: measurement}
 Reductive Acetyl-Coa Pathway: {kind: pathway-or-process, canonical: Reductive acetyl-CoA pathway, query: [carbon fixation by acetyl-CoA pathway, reductive acetyl-CoA pathway, Wood-Ljungdahl pathway]}
 Relative Abundance: {kind: measurement}
-Relaxase: {kind: gene-product, prefer: [GO, SO, ARO], query: [relaxase, DNA relaxase activity, nickase], rationale: "conjugation enzyme; no exact class expected"}
+Relaxase: {kind: gene-product, prefer: [GO, SO, ARO], query: [relaxase, DNA relaxase activity, nickase], rationale: "conjugation enzyme; no exact class expected", assign: [{id: "ICEO:0000036", match: exact, secondary: "InterPro IPR005094 (MobA/VirD2-like nuclease domain); Pfam PF03432", note: "ICEO (Integrative and Conjugative Element Ontology) is the only ontology with a relaxase class; GO has no relaxase or conjugal-nickase term, SO has no enzyme classes, curated 2026-11-12"}, {id: "GO:0004520", match: broader, note: "nearest GO molecular function (the enzyme nicks DNA at oriT, SO:0000724)"}]}
 Remission: {kind: disease-or-phenotype, prefer: [MONDO, NCIT, HP], query: remission, rationale: "clinical state; NCIT"}
 Resistant Starch: {kind: chemical, prefer: [CHEBI, FOODON], query: resistant starch}
 Resource Partitioning: {kind: ecological-role, prefer: [ECOCORE, PCO, GO], query: [resource partitioning, niche partitioning], no_class: "no resource/niche partitioning, niche or interspecific competition class in any OLS ontology; GO competition terms are cellular; ECOCORE processes are succession, biogeochemical and trophic only"}
@@ -541,7 +541,7 @@ Tca Cycle: {kind: pathway-or-process, canonical: TCA cycle, query: tricarboxylic
 Temperature: {kind: measurement}
 Tetm Gene: {kind: gene, canonical: tetM gene, query: "tet(M)"}
 Tetq Gene: {kind: gene, canonical: tetQ gene, query: "tet(Q)"}
-Th17/Treg Imbalance: {kind: disease-or-phenotype, prefer: [HP, PATO, GO, MONDO], query: Th17/Treg imbalance, rationale: "host immune phenotype; no pre-composed class expected"}
+Th17/Treg Imbalance: {kind: disease-or-phenotype, prefer: [HP, PATO, GO, MONDO], query: Th17/Treg imbalance, rationale: "host immune phenotype; no pre-composed class expected", assign: [{id: "HP:0025830", match: component, note: "no imbalance class in HP, PATO or GO; decompose into the two proportion phenotypes, the Th17:Treg ratio itself is an observed property; cell types CL:0000899 T-helper 17 cell and CL:0000815 regulatory T cell, curated 2026-11-12"}, {id: "HP:0020113", match: component, note: "the usual direction in the CQ (Th17 up, Treg down); HP:0020112 if increased"}, {id: "HP:0031392", match: broader, note: "the single parent phenotype if one node is wanted"}]}
 Tmao: {kind: chemical, canonical: TMAO (trimethylamine N-oxide), query: trimethylamine N-oxide}
 Tnm Stage: {kind: measurement, canonical: TNM stage}
 Tomato: {kind: host, query: Solanum lycopersicum}

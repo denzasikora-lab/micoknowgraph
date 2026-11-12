@@ -100,7 +100,7 @@ OLS_IDS = {
     "FOODON": "foodon", "ECTO": "ecto", "AGRO": "agro", "PECO": "peco", "PCO": "pco",
     "ECOCORE": "ecocore", "OMP": "omp", "NBO": "nbo", "OBA": "oba", "CL": "cl",
     "HP": "hp", "NCIT": "ncit", "EFO": "efo", "DOID": "doid", "PR": "pr",
-    "MICRO": "micro", "IDO": "ido", "MESH": "mesh",
+    "MICRO": "micro", "IDO": "ido", "MESH": "mesh", "ICEO": "iceo",
 }
 
 # Proper CURIE prefix spelling for the output.

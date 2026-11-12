@@ -9,7 +9,7 @@ Built from the sheet's own entity list (A2:B600, 553 non-empty rows), Thomas Cro
 | File | What it is |
 |---|---|
 | `data/entity_mapping/entity_kinds.tsv` | One row per sheet entity (553). Columns: `entity, canonical_name, cqs, kind, map, rationale`. The `kind` decides whether the entity gets an ontology class at all. |
-| `data/entity_mapping/entities_to_concepts.tsv` | Long format, one row per entity–concept pair (1189 rows). Up to 5 candidate concepts per mappable entity, re-ranked by the project's ontology preference; one empty row per non-mappable entity saying where it lives in the schema instead. |
+| `data/entity_mapping/entities_to_concepts.tsv` | Long format, one row per entity–concept pair (1193 rows). Up to 5 candidate concepts per mappable entity, re-ranked by the project's ontology preference; one empty row per non-mappable entity saying where it lives in the schema instead. |
 | `data/entity_mapping/inputs/` | Inputs and caches: `details.csv`, `unmatched_entities.csv` (Thomas's output), `sheet_entities.json` (the sheet range), `ols_cache.json` (every OLS response used, so every added IRI is verifiable offline), `build_report.json` (counts and lists from the last run), `spot_check.json`. |
 | `scripts/entity_mapping/build_mapping.py` | The script (stdlib + PyYAML). `--help` works; `--offline` reruns from the caches; `--spot-check N` verifies N random kept matches against OLS. |
 | `scripts/entity_mapping/entity_kinds_curated.yaml` | The hand-curated kind per entity, plus repaired names, OLS query hints, hand-flagged wrong matches and, for entities no matcher finds, hand-assigned concepts (`assign:`, looked up on OLS at build time) or a `no_class:` verdict. This is the file to edit when a call is disputed. |
@@ -83,23 +83,23 @@ Lower tier, kept only as cross-references (`tier = mapped`): DOID, NCIT, EFO, Me
 |---|---|
 | Entities in the sheet (non-empty column A) | 553 |
 | `map = yes` / `map = no` | 363 / 190 |
-| Rows in `entities_to_concepts.tsv` | 1189 (988 concept rows + 201 placeholder rows: 190 `map = no`, 5 unresolved, 2 no class exists, 4 generic) |
+| Rows in `entities_to_concepts.tsv` | 1193 (997 concept rows + 196 placeholder rows: 190 `map = no`, 2 no class exists, 4 generic) |
 | Entities Thomas matched | 316, of which 247 are `map = yes` (his 69 matches for measurements, methods, identifier schemes are not carried into the concept table) |
 | Rows with a Thomas match kept | 796 (source `bioportal`, `local`, `bioportal+local`); 20 further rows where his match and the OLS fill are the same id are merged into one row (source `ols-manual+bioportal`) |
 | Rows added from OLS (`source = ols-manual`) | 174, each IRI verified by a term lookup (responses in `inputs/ols_cache.json`); 85 of them are now the rank-1 candidate for their entity |
 | Entities whose rank-1 changed by re-ranking Thomas's own matches | 114 (37 of them MeSH/SNOMED → ChEBI/MONDO) |
-| Hand-assigned concepts (`source = curated`) | 18 rows for 17 entities, each id looked up on OLS at build time (label and definition are the ontology's own) |
+| Hand-assigned concepts (`source = curated`) | 27 rows for 22 entities, each id looked up on OLS at build time (label and definition are the ontology's own) |
 | Thomas matches flagged `WRONG?` in the note | 88 rows (30 by hand in the curated file, the rest by the definition/word-overlap heuristics); none is rank 1 |
-| `map = yes` entities with no concept at all | 5 unresolved + 2 with no class in any ontology + 4 generic (see below) |
+| `map = yes` entities with no concept at all | 2 with no class in any ontology + 4 generic (see below) |
 | Spot check | 15 random kept Thomas matches, all resolve on OLS with the same label (`downloads/spot_check.json`) |
 
 Per kind: measurement 115, chemical 69, taxon 44, pathway-or-process 41, gene 29, meta 24, environment 23, ecological-role 19, host 18, method-or-procedure 16, disease-or-phenotype 16, statistic 13, drug-or-therapy 13, gene-product 12, data-artifact 11, mobile-element 11, taxon-group 11, cell-state 10, event-or-exposure 10, identifier-scheme 9, food-or-diet 9, sample-material 8, study-design 8, time-or-period 7, anatomy-or-body-site 5, junk-fragment 2.
 
-Hand-assigned on 12 November after checking OLS by hand (`assign:` in the curated file; the note on each row gives the match type and the alternatives): the twelve gene symbols and categories (above), ESBL → ARO:3000001 beta-lactamase (ARO has no extended-spectrum grouping class; the families CTX-M, SHV, TEM are listed in the note), Halophile → MICRO:0001367 halophile (the only OBO organism-level class; OMP:0005016 halophilic growth is the phenotype alternative), Non-Pathogen → IDO:0000528 pathogen as a *negation* (no ontology has a non-pathogen class), Gut Taxa → PCO:1000004 microbial community located in UBERON:0001555 digestive tract (two rows), Pot Trial → PECO:0007248 greenhouse study (no pot-trial design class in PECO, AGRO or OBI).
+Hand-assigned on 12 November after checking OLS by hand (`assign:` in the curated file; the note on each row gives the match type and the alternatives): the twelve gene symbols and categories (above), ESBL → ARO:3000001 beta-lactamase (ARO has no extended-spectrum grouping class; the families CTX-M, SHV, TEM are listed in the note), Halophile → MICRO:0001367 halophile (the only OBO organism-level class; OMP:0005016 halophilic growth is the phenotype alternative), Non-Pathogen → IDO:0000528 pathogen as a *negation* (no ontology has a non-pathogen class), Gut Taxa → PCO:1000004 microbial community located in UBERON:0001555 digestive tract (two rows), Pot Trial → PECO:0007248 greenhouse study (no pot-trial design class in PECO, AGRO or OBI), Relaxase → ICEO:0000036 relaxase (the Integrative and Conjugative Element Ontology is the only one with the class; GO:0004520 DNA endonuclease activity as the broader GO function, InterPro IPR005094 in the note), Carbon concentrating mechanism → GO:0031470 carboxysome (*component*; GO has no CCM process, GO:0015977 carbon fixation is the broader process), Plant decomposition → ECOCORE:00000186 litter decomposition (ENVO and GO have no decomposition process), Cloud dissipation → ENVO:02500003 atmospheric process (*broader*; ENVO has cloud formation but no inverse, a term request is the real fix), Th17/Treg imbalance → HP:0025830 abnormal Th17 T cell proportion + HP:0020113 decreased regulatory T cell proportion (two *component* rows; the ratio is an observed property, HP:0031392 is the single parent).
 
 No class in any OLS ontology (`no_class:` in the curated file; placeholder row proposes a local micokg class): Keystone Species, Resource Partitioning.
 
-Still unresolved: Carbon Concentration Mechanism, Cloud Dissipation, Plant Decomposition, Relaxase, Th17/Treg Imbalance.
+Nothing is left unresolved.
 
 ## Problems found in Thomas's output
 
