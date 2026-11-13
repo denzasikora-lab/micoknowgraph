@@ -7,7 +7,8 @@ Inputs (all local, so the script reruns offline):
   data/entity_mapping/inputs/details.csv           Thomas Crow's BioPortal matcher output
                                     (entity, rank, id, ontology, name, definition,
                                     rating, matched_text, source)
-  entity_kinds_curated.yaml         hand-curated kind per entity (next to this script)
+  entity_kinds_curated.yaml         hand-curated kind per entity, plus hand-assigned
+                                    concepts (`assign:`) for entities no matcher finds
   data/entity_mapping/inputs/ols_cache.json        cached OLS responses (created on first online run)
 
 Outputs (in <out>):
@@ -99,6 +100,7 @@ OLS_IDS = {
     "FOODON": "foodon", "ECTO": "ecto", "AGRO": "agro", "PECO": "peco", "PCO": "pco",
     "ECOCORE": "ecocore", "OMP": "omp", "NBO": "nbo", "OBA": "oba", "CL": "cl",
     "HP": "hp", "NCIT": "ncit", "EFO": "efo", "DOID": "doid", "PR": "pr",
+    "MICRO": "micro", "IDO": "ido", "MESH": "mesh", "ICEO": "iceo",
 }
 
 # Proper CURIE prefix spelling for the output.
@@ -224,6 +226,22 @@ class OLS:
         if not data or "_error" in data or "label" not in data:
             return None
         return data
+
+    def term_by_id(self, ontology: str, curie: str) -> dict | None:
+        """Look a term up by its CURIE (used for hand-assigned concepts)."""
+        prefix, local = curie.split(":", 1)
+        # OLS spells some prefixes in lower case (mesh:D037521) and accepts
+        # the short form (GO_0016984) too; try the variants in turn.
+        variants = [{"obo_id": curie}, {"obo_id": f"{prefix.lower()}:{local}"},
+                    {"short_form": f"{prefix}_{local}"}]
+        for params in variants:
+            q = urllib.parse.urlencode(params)
+            data = self.get(f"{OLS_BASE}/ontologies/{ontology}/terms?{q}")
+            terms = (data or {}).get("_embedded", {}).get("terms", []) if isinstance(data, dict) else []
+            for t in terms:
+                if "label" in t and not t.get("is_obsolete"):
+                    return t
+        return None
 
 
 def doc_curie(doc: dict) -> str:
@@ -421,6 +439,7 @@ def build(args) -> dict:
     stats = Counter()
     per_kind = Counter()
     rerank_changes, ols_filled, unresolved, wrong_top = [], [], [], []
+    curated_assigned, no_class = [], []
     thomas_keys_used = set()
 
     for entity, cqs in sheet:
@@ -484,7 +503,37 @@ def build(args) -> dict:
         has_preferred = any(s[5] in prefer and not s[6]
                             and tier_of(s[5]) in ("core", "extension") for s in scored)
         candidates = []  # (score, order, row)
-        if not c.get("generic") and not has_preferred:
+
+        # Hand-assigned concepts (curated `assign:`) go first. Each id is
+        # looked up on OLS so the label and definition are the ontology's own
+        # and the id is verified; an entry OLS cannot resolve must carry a name.
+        assigns = c.get("assign") or []
+        for i, a in enumerate(assigns):
+            cid = norm_id(str(a["id"]), "")
+            onto = cid.split(":", 1)[0].upper()
+            term = ols.term_by_id(OLS_IDS[onto], cid) if onto in OLS_IDS else None
+            if term is None and not a.get("name"):
+                sys.exit(f"ERROR: {entity}: assigned {cid} not found on OLS and no name given")
+            desc = (term or {}).get("description") or [""]
+            how = a.get("match", "exact")
+            note_bits = [f"curated {how} match"
+                         + (" (verified by OLS term lookup)" if term else " (not on OLS; name given by hand)")]
+            if a.get("note"):
+                note_bits.append(str(a["note"]))
+            if a.get("secondary"):
+                note_bits.append(f"secondary id: {a['secondary']}")
+            candidates.append((-10 + i, -1, {
+                **base, "concept_id": cid, "ontology": onto,
+                "name": (term or {}).get("label") or a.get("name", ""),
+                "definition": one_line(desc[0] if desc else "") or one_line(str(a.get("definition", ""))),
+                "rating_thomas": "", "source": "curated", "tier": tier_of(onto),
+                "note": "; ".join(note_bits),
+            }))
+            stats["curated_assigned"] += 1
+        if assigns:
+            curated_assigned.append((entity, [norm_id(str(a["id"]), "") for a in assigns]))
+
+        if not c.get("generic") and not has_preferred and not assigns:
             queries = as_list(c.get("query")) or []
             for q in (canonical, entity):
                 if q and q not in queries:
@@ -508,8 +557,6 @@ def build(args) -> dict:
                 }))
                 ols_filled.append((entity, hit["concept_id"], hit["name"]))
                 stats["ols_filled"] += 1
-            elif not matches:
-                unresolved.append(entity)
 
         for order, (score, _, _, m, cid, onto, reason) in enumerate(scored):
             note_bits = []
@@ -528,21 +575,48 @@ def build(args) -> dict:
             }))
 
         candidates.sort(key=lambda t: (t[0], t[1]))
-        rows_for_entity = [row for _, _, row in candidates[:5]]
+
+        # One row per concept: when Thomas's matcher and the OLS fill (or a
+        # curated assignment) found the same id, keep the best-ranked row and
+        # record the other source on it.
+        by_id: dict[str, tuple] = {}
+        deduped = []
+        for cand in candidates:
+            cid = cand[2]["concept_id"]
+            if cid in by_id:
+                kept = by_id[cid][2]
+                extra_src = cand[2]["source"]
+                if extra_src not in kept["source"].split("+"):
+                    kept["source"] = kept["source"] + "+" + extra_src
+                    kept["note"] = (kept["note"] + "; " if kept["note"] else "") + f"also found by {extra_src}"
+                if not kept["rating_thomas"] and cand[2]["rating_thomas"]:
+                    kept["rating_thomas"] = cand[2]["rating_thomas"]
+                stats["duplicate_rows_merged"] += 1
+                continue
+            by_id[cid] = cand
+            deduped.append(cand)
+        rows_for_entity = [row for _, _, row in deduped[:5]]
 
         if not rows_for_entity:
             why = "generic schema class; values come from the preferred ontology" if c.get("generic") \
                 else "no match found"
             if kind == "gene" and not c.get("generic"):
                 why = "no ontology class: gene symbol, use ARO/CARD or UniProt/NCBI Gene identifier"
+            if c.get("no_class"):
+                why = ("no class in any OLS ontology (checked 2026-11-12); candidate for a local "
+                       f"micokg class: {c['no_class']}")
             concept_rows.append({**base, "rank_adjusted": "", "concept_id": "", "ontology": "",
                                  "name": "", "definition": "", "rating_thomas": "",
                                  "source": "", "tier": "",
                                  "note": why + (f"; {rationale}" if rationale else "")})
-            if not c.get("generic"):
-                stats["unresolved"] += 1
-            else:
+            if c.get("generic"):
                 stats["generic_unmapped"] += 1
+            elif c.get("no_class"):
+                stats["no_class"] += 1
+                no_class.append(entity)
+            else:
+                stats["unresolved"] += 1
+                unresolved.append(entity)
             continue
 
         for i, r in enumerate(rows_for_entity, 1):
@@ -554,7 +628,7 @@ def build(args) -> dict:
         top = rows_for_entity[0]
         if matches:
             thomas_top = norm_id(matches[0]["id"], matches[0]["ontology"])
-            if top["source"] == "ols-manual":
+            if "ols-manual" in top["source"].split("+"):
                 stats["top1_is_ols_fill"] += 1
             elif top["concept_id"] != thomas_top:
                 stats["top1_changed_by_rerank"] += 1
@@ -586,6 +660,8 @@ def build(args) -> dict:
         "per_kind": dict(per_kind.most_common()),
         "rerank_top1_changes": rerank_changes,
         "ols_filled": ols_filled,
+        "curated_assigned": curated_assigned,
+        "no_class": no_class,
         "unresolved": unresolved,
         "top1_still_flagged": wrong_top,
         "thomas_entities_not_in_sheet": unused,

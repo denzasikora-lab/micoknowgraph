@@ -1658,6 +1658,120 @@
 "synonyms": [],
 "term_replaced_by": null
 },
+"https://www.ebi.ac.uk/ols4/api/ontologies/aro/terms?obo_id=ARO%3A3000001": {
+"_embedded": {
+"terms": [
+{
+"_links": {
+"ancestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/aro/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FARO_3000001/ancestors"
+},
+"children": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/aro/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FARO_3000001/children"
+},
+"descendants": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/aro/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FARO_3000001/descendants"
+},
+"graph": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/aro/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FARO_3000001/graph"
+},
+"hierarchicalAncestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/aro/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FARO_3000001/hierarchicalAncestors"
+},
+"hierarchicalChildren": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/aro/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FARO_3000001/hierarchicalChildren"
+},
+"hierarchicalDescendants": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/aro/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FARO_3000001/hierarchicalDescendants"
+},
+"hierarchicalParents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/aro/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FARO_3000001/hierarchicalParents"
+},
+"jstree": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/aro/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FARO_3000001/jstree"
+},
+"parents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/aro/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FARO_3000001/parents"
+},
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/aro/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FARO_3000001?lang=en"
+}
+},
+"annotation": {
+"has_obo_namespace": [
+"antibiotic_resistance"
+],
+"id": [
+"ARO:3000001"
+]
+},
+"description": [
+"Beta-lactamases are enzymes (EC 3.5.2.6) produced by some bacteria and are responsible for their resistance to beta-lactam antibiotics like penicillins, cephalosporins (are relatively resistant to beta-lactamase), cephamycins, and carbapenems (ertapenem). These antibiotics have a common element in their molecular structure: a four-atom ring known as a beta-lactam. The lactamase enzyme breaks that ring open, deactivating the molecule's antibacterial properties. Beta-lactam antibiotics are typically used to treat a broad spectrum of gram-positive and gram-negative bacteria. Beta-lactamases produced by gram-negative organisms are usually secreted."
+],
+"has_children": true,
+"in_subset": null,
+"iri": "http://purl.obolibrary.org/obo/ARO_3000001",
+"is_defining_ontology": false,
+"is_obsolete": false,
+"is_preferred_root": false,
+"is_root": false,
+"label": "beta-lactamase",
+"lang": "en",
+"obo_definition_citation": [
+{
+"definition": "Beta-lactamases are enzymes (EC 3.5.2.6) produced by some bacteria and are responsible for their resistance to beta-lactam antibiotics like penicillins, cephalosporins (are relatively resistant to beta-lactamase), cephamycins, and carbapenems (ertapenem). These antibiotics have a common element in their molecular structure: a four-atom ring known as a beta-lactam. The lactamase enzyme breaks that ring open, deactivating the molecule's antibacterial properties. Beta-lactam antibiotics are typically used to treat a broad spectrum of gram-positive and gram-negative bacteria. Beta-lactamases produced by gram-negative organisms are usually secreted.",
+"oboXrefs": [
+{
+"database": "PMID",
+"description": null,
+"id": "19995920",
+"url": "https://pubmed.ncbi.nlm.nih.gov/19995920"
+},
+{
+"database": "PMID",
+"description": null,
+"id": "21220461",
+"url": "https://pubmed.ncbi.nlm.nih.gov/21220461"
+},
+{
+"database": "PMID",
+"description": null,
+"id": "6109327",
+"url": "https://pubmed.ncbi.nlm.nih.gov/6109327"
+},
+{
+"database": "PMID",
+"description": null,
+"id": "7574506",
+"url": "https://pubmed.ncbi.nlm.nih.gov/7574506"
+}
+]
+}
+],
+"obo_id": "ARO:3000001",
+"obo_synonym": null,
+"obo_xref": null,
+"ontology_iri": "http://purl.obolibrary.org/obo/antibiotic_resistance.owl",
+"ontology_name": "aro",
+"ontology_prefix": "ARO",
+"short_form": "ARO_3000001",
+"synonyms": [],
+"term_replaced_by": null
+}
+]
+},
+"_links": {
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/aro/terms?obo_id=ARO%3A3000001"
+}
+},
+"page": {
+"number": 0,
+"size": 1,
+"totalElements": 1,
+"totalPages": 1
+}
+},
 "https://www.ebi.ac.uk/ols4/api/ontologies/chebi/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCHEBI_138675": {
 "_links": {
 "ancestors": {
@@ -6940,6 +7054,80 @@
 "synonyms": [],
 "term_replaced_by": null
 },
+"https://www.ebi.ac.uk/ols4/api/ontologies/ecocore/terms?obo_id=ECOCORE%3A00000186": {
+"_embedded": {
+"terms": [
+{
+"_links": {
+"ancestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/ecocore/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FECOCORE_00000186/ancestors"
+},
+"graph": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/ecocore/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FECOCORE_00000186/graph"
+},
+"has_input": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/ecocore/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FECOCORE_00000186/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002233"
+},
+"hierarchicalAncestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/ecocore/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FECOCORE_00000186/hierarchicalAncestors"
+},
+"hierarchicalParents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/ecocore/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FECOCORE_00000186/hierarchicalParents"
+},
+"jstree": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/ecocore/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FECOCORE_00000186/jstree"
+},
+"parents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/ecocore/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FECOCORE_00000186/parents"
+},
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/ecocore/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FECOCORE_00000186?lang=en"
+}
+},
+"annotation": {
+"term editor": [
+"http://orcid.org/0000-0002-2908-3327"
+]
+},
+"description": [
+"A decomposition process during which a living entity acquires food and energy by breaking down plant litter."
+],
+"has_children": false,
+"in_subset": null,
+"iri": "http://purl.obolibrary.org/obo/ECOCORE_00000186",
+"is_defining_ontology": true,
+"is_obsolete": false,
+"is_preferred_root": false,
+"is_root": false,
+"label": "litter decomposition",
+"lang": "en",
+"obo_definition_citation": null,
+"obo_id": "ECOCORE:00000186",
+"obo_synonym": null,
+"obo_xref": null,
+"ontology_iri": "http://purl.obolibrary.org/obo/ecocore.owl",
+"ontology_name": "ecocore",
+"ontology_prefix": "ECOCORE",
+"short_form": "ECOCORE_00000186",
+"synonyms": [
+"leaf litter decomposition"
+],
+"term_replaced_by": null
+}
+]
+},
+"_links": {
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/ecocore/terms?obo_id=ECOCORE%3A00000186"
+}
+},
+"page": {
+"number": 0,
+"size": 1,
+"totalElements": 1,
+"totalPages": 1
+}
+},
 "https://www.ebi.ac.uk/ols4/api/ontologies/ecto/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FECTO_0900199": {
 "_links": {
 "ancestors": {
@@ -8918,6 +9106,87 @@
 "UV radiation"
 ],
 "term_replaced_by": null
+},
+"https://www.ebi.ac.uk/ols4/api/ontologies/envo/terms?obo_id=ENVO%3A02500003": {
+"_embedded": {
+"terms": [
+{
+"_links": {
+"ancestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/envo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_02500003/ancestors"
+},
+"children": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/envo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_02500003/children"
+},
+"descendants": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/envo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_02500003/descendants"
+},
+"graph": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/envo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_02500003/graph"
+},
+"hierarchicalAncestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/envo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_02500003/hierarchicalAncestors"
+},
+"hierarchicalChildren": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/envo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_02500003/hierarchicalChildren"
+},
+"hierarchicalDescendants": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/envo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_02500003/hierarchicalDescendants"
+},
+"hierarchicalParents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/envo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_02500003/hierarchicalParents"
+},
+"jstree": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/envo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_02500003/jstree"
+},
+"occurs_in": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/envo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_02500003/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000066"
+},
+"parents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/envo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_02500003/parents"
+},
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/envo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FENVO_02500003?lang=en"
+}
+},
+"annotation": {},
+"description": [
+"A process which occurs within an atmosphere.",
+"This class will be populated by inference and is primarily organisational."
+],
+"has_children": true,
+"in_subset": null,
+"iri": "http://purl.obolibrary.org/obo/ENVO_02500003",
+"is_defining_ontology": true,
+"is_obsolete": false,
+"is_preferred_root": false,
+"is_root": false,
+"label": "atmospheric process",
+"lang": "en",
+"obo_definition_citation": null,
+"obo_id": "ENVO:02500003",
+"obo_synonym": null,
+"obo_xref": null,
+"ontology_iri": "http://purl.obolibrary.org/obo/envo.owl",
+"ontology_name": "envo",
+"ontology_prefix": "ENVO",
+"short_form": "ENVO_02500003",
+"synonyms": [],
+"term_replaced_by": null
+}
+]
+},
+"_links": {
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/envo/terms?obo_id=ENVO%3A02500003"
+}
+},
+"page": {
+"number": 0,
+"size": 1,
+"totalElements": 1,
+"totalPages": 1
+}
 },
 "https://www.ebi.ac.uk/ols4/api/ontologies/foodon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCDNO_0000007": {
 "_links": {
@@ -13574,6 +13843,2367 @@
 ],
 "term_replaced_by": null
 },
+"https://www.ebi.ac.uk/ols4/api/ontologies/go/terms?obo_id=GO%3A0003955": {
+"_embedded": {
+"terms": [
+{
+"_links": {
+"ancestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0003955/ancestors"
+},
+"children": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0003955/children"
+},
+"descendants": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0003955/descendants"
+},
+"graph": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0003955/graph"
+},
+"hierarchicalAncestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0003955/hierarchicalAncestors"
+},
+"hierarchicalChildren": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0003955/hierarchicalChildren"
+},
+"hierarchicalDescendants": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0003955/hierarchicalDescendants"
+},
+"hierarchicalParents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0003955/hierarchicalParents"
+},
+"jstree": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0003955/jstree"
+},
+"parents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0003955/parents"
+},
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0003955?lang=en"
+}
+},
+"annotation": {
+"database_cross_reference": [
+"EC:1.6.5.2",
+"MetaCyc:NQOR-RXN",
+"UM-BBD_reactionID:r0227"
+],
+"has exact match": [
+"http://purl.uniprot.org/enzyme/1.6.5.2"
+],
+"has_obo_namespace": [
+"molecular_function"
+],
+"id": [
+"GO:0003955"
+],
+"term tracker item": [
+"https://github.com/geneontology/go-ontology/issues/20616"
+]
+},
+"description": [
+"Catalysis of the reaction: NAD(P)H + H+ + a quinone = NAD(P)+ + a quinol."
+],
+"has_children": true,
+"in_subset": null,
+"iri": "http://purl.obolibrary.org/obo/GO_0003955",
+"is_defining_ontology": true,
+"is_obsolete": false,
+"is_preferred_root": false,
+"is_root": false,
+"label": "NAD(P)H dehydrogenase (quinone) activity",
+"lang": "en",
+"obo_definition_citation": [
+{
+"definition": "Catalysis of the reaction: NAD(P)H + H+ + a quinone = NAD(P)+ + a quinol.",
+"oboXrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.6.5.2",
+"url": null
+}
+]
+}
+],
+"obo_id": "GO:0003955",
+"obo_synonym": [
+{
+"name": "DT-diaphorase activity",
+"scope": "hasRelatedSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.6.5.2",
+"url": null
+}
+]
+},
+{
+"name": "NAD(P)H(2) dehydrogenase (quinone) activity",
+"scope": "hasRelatedSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.6.5.2",
+"url": null
+}
+]
+},
+{
+"name": "NAD(P)H-quinone dehydrogenase activity",
+"scope": "hasRelatedSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.6.5.2",
+"url": null
+}
+]
+},
+{
+"name": "NAD(P)H-quinone oxidoreductase activity",
+"scope": "hasRelatedSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.6.5.2",
+"url": null
+}
+]
+},
+{
+"name": "NAD(P)H2 dehydrogenase (quinone)",
+"scope": "hasRelatedSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.6.5.2",
+"url": null
+}
+]
+},
+{
+"name": "NAD(P)H:(quinone-acceptor)oxidoreductase activity",
+"scope": "hasRelatedSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.6.5.2",
+"url": null
+}
+]
+},
+{
+"name": "NAD(P)H:quinone oxidoreductase activity",
+"scope": "hasRelatedSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.6.5.2",
+"url": null
+}
+]
+},
+{
+"name": "dehydrogenase, reduced nicotinamide adenine dinucleotide (phosphate, quinone) activity",
+"scope": "hasRelatedSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.6.5.2",
+"url": null
+}
+]
+},
+{
+"name": "flavoprotein NAD(P)H-quinone reductase activity",
+"scope": "hasRelatedSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.6.5.2",
+"url": null
+}
+]
+},
+{
+"name": "quinone reductase activity",
+"scope": "hasRelatedSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.6.5.2",
+"url": null
+}
+]
+},
+{
+"name": "reduced NAD(P)H dehydrogenase activity",
+"scope": "hasRelatedSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.6.5.2",
+"url": null
+}
+]
+},
+{
+"name": "reduced nicotinamide-adenine dinucleotide (phosphate) dehydrogenase activity",
+"scope": "hasRelatedSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.6.5.2",
+"url": null
+}
+]
+},
+{
+"name": "NADH-menadione reductase activity",
+"scope": "hasNarrowSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.6.5.2",
+"url": null
+}
+]
+},
+{
+"name": "menadione oxidoreductase activity",
+"scope": "hasNarrowSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.6.5.2",
+"url": null
+}
+]
+},
+{
+"name": "menadione reductase activity",
+"scope": "hasNarrowSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.6.5.2",
+"url": null
+}
+]
+},
+{
+"name": "naphthoquinone reductase activity",
+"scope": "hasNarrowSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.6.5.2",
+"url": null
+}
+]
+},
+{
+"name": "p-benzoquinone reductase activity",
+"scope": "hasNarrowSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.6.5.2",
+"url": null
+}
+]
+},
+{
+"name": "phylloquinone reductase activity",
+"scope": "hasNarrowSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.6.5.2",
+"url": null
+}
+]
+},
+{
+"name": "viologen accepting pyridine nucleotide oxidoreductase activity",
+"scope": "hasNarrowSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.6.5.2",
+"url": null
+}
+]
+},
+{
+"name": "vitamin K reductase activity",
+"scope": "hasNarrowSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.6.5.2",
+"url": null
+}
+]
+},
+{
+"name": "vitamin-K reductase activity",
+"scope": "hasNarrowSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.6.5.2",
+"url": null
+}
+]
+},
+{
+"name": "NAD(P)H menadione reductase activity",
+"scope": "hasBroadSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.6.5.2",
+"url": null
+}
+]
+},
+{
+"name": "NAD(P)H: menadione oxidoreductase activity",
+"scope": "hasBroadSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.6.5.2",
+"url": null
+}
+]
+},
+{
+"name": "azoreductase activity",
+"scope": "hasBroadSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.6.5.2",
+"url": null
+}
+]
+},
+{
+"name": "diaphorase activity",
+"scope": "hasBroadSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.6.5.2",
+"url": null
+}
+]
+}
+],
+"obo_xref": [
+{
+"database": "EC",
+"description": null,
+"id": "1.6.5.2",
+"url": null
+},
+{
+"database": "MetaCyc",
+"description": null,
+"id": "NQOR-RXN",
+"url": "https://biocyc.org/META/NEW-IMAGE?type=NIL&object=NQOR-RXN"
+},
+{
+"database": "UM-BBD_reactionID",
+"description": null,
+"id": "r0227",
+"url": null
+}
+],
+"ontology_iri": "http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn",
+"ontology_name": "go",
+"ontology_prefix": "GO",
+"short_form": "GO_0003955",
+"synonyms": [
+"NAD(P)H dehydrogenase activity",
+"NQO1",
+"QR1",
+"DT-diaphorase activity",
+"NAD(P)H menadione reductase activity",
+"NAD(P)H(2) dehydrogenase (quinone) activity",
+"NAD(P)H-quinone dehydrogenase activity",
+"NAD(P)H-quinone oxidoreductase activity",
+"NAD(P)H2 dehydrogenase (quinone)",
+"NAD(P)H: menadione oxidoreductase activity",
+"NAD(P)H:(quinone-acceptor)oxidoreductase activity",
+"NAD(P)H:quinone oxidoreductase activity",
+"NADH-menadione reductase activity",
+"azoreductase activity",
+"dehydrogenase, reduced nicotinamide adenine dinucleotide (phosphate, quinone) activity",
+"diaphorase activity",
+"flavoprotein NAD(P)H-quinone reductase activity",
+"menadione oxidoreductase activity",
+"menadione reductase activity",
+"naphthoquinone reductase activity",
+"p-benzoquinone reductase activity",
+"phylloquinone reductase activity",
+"quinone reductase activity",
+"reduced NAD(P)H dehydrogenase activity",
+"reduced nicotinamide-adenine dinucleotide (phosphate) dehydrogenase activity",
+"viologen accepting pyridine nucleotide oxidoreductase activity",
+"vitamin K reductase activity",
+"vitamin-K reductase activity"
+],
+"term_replaced_by": null
+}
+]
+},
+"_links": {
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms?obo_id=GO%3A0003955"
+}
+},
+"page": {
+"number": 0,
+"size": 1,
+"totalElements": 1,
+"totalPages": 1
+}
+},
+"https://www.ebi.ac.uk/ols4/api/ontologies/go/terms?obo_id=GO%3A0004520": {
+"_embedded": {
+"terms": [
+{
+"_links": {
+"ancestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0004520/ancestors"
+},
+"children": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0004520/children"
+},
+"descendants": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0004520/descendants"
+},
+"graph": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0004520/graph"
+},
+"hierarchicalAncestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0004520/hierarchicalAncestors"
+},
+"hierarchicalChildren": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0004520/hierarchicalChildren"
+},
+"hierarchicalDescendants": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0004520/hierarchicalDescendants"
+},
+"hierarchicalParents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0004520/hierarchicalParents"
+},
+"jstree": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0004520/jstree"
+},
+"parents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0004520/parents"
+},
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0004520?lang=en"
+}
+},
+"annotation": {
+"database_cross_reference": [
+"Reactome:R-HSA-110359",
+"Reactome:R-HSA-5686440",
+"Reactome:R-HSA-5686657",
+"Reactome:R-HSA-5687464",
+"Reactome:R-HSA-5690988",
+"Reactome:R-HSA-5693584",
+"Reactome:R-HSA-5693608",
+"Reactome:R-HSA-6782204",
+"Reactome:R-HSA-6782224",
+"Reactome:R-HSA-9023941"
+],
+"has_obo_namespace": [
+"molecular_function"
+],
+"id": [
+"GO:0004520"
+],
+"term tracker item": [
+"https://github.com/geneontology/go-ontology/issues/24408"
+]
+},
+"description": [
+"Catalysis of the cleavage of ester linkages within deoxyribonucleic acid by creating internal breaks."
+],
+"has_children": true,
+"in_subset": null,
+"iri": "http://purl.obolibrary.org/obo/GO_0004520",
+"is_defining_ontology": true,
+"is_obsolete": false,
+"is_preferred_root": false,
+"is_root": false,
+"label": "DNA endonuclease activity",
+"lang": "en",
+"obo_definition_citation": [
+{
+"definition": "Catalysis of the cleavage of ester linkages within deoxyribonucleic acid by creating internal breaks.",
+"oboXrefs": [
+{
+"database": "GOC",
+"description": null,
+"id": "mah",
+"url": null
+},
+{
+"database": "ISBN",
+"description": null,
+"id": "0198547684",
+"url": "https://www.worldcat.org/search?q=bn%3A0198547684"
+}
+]
+}
+],
+"obo_id": "GO:0004520",
+"obo_synonym": [
+{
+"name": "DNA nicking activity",
+"scope": "hasRelatedSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "GOC",
+"description": null,
+"id": "mah",
+"url": null
+}
+]
+}
+],
+"obo_xref": [
+{
+"database": "Reactome",
+"description": "APEX1 mediates endonucleolytic cleavage at the 5' side of the AP site",
+"id": "R-HSA-110359",
+"url": "https://www.reactome.org/content/detail/R-HSA-110359"
+},
+{
+"database": "Reactome",
+"description": "MUS81:EME1,EME2 cleaves D-loop",
+"id": "R-HSA-5686440",
+"url": "https://www.reactome.org/content/detail/R-HSA-5686440"
+},
+{
+"database": "Reactome",
+"description": "ERCC1:XPF cleaves flaps generated by SSA",
+"id": "R-HSA-5686657",
+"url": "https://www.reactome.org/content/detail/R-HSA-5686657"
+},
+{
+"database": "Reactome",
+"description": "MRN and RBBP8 resect DNA DSBs in MMEJ",
+"id": "R-HSA-5687464",
+"url": "https://www.reactome.org/content/detail/R-HSA-5687464"
+},
+{
+"database": "Reactome",
+"description": "3'-incision of DNA by ERCC5 (XPG) in GG-NER",
+"id": "R-HSA-5690988",
+"url": "https://www.reactome.org/content/detail/R-HSA-5690988"
+},
+{
+"database": "Reactome",
+"description": "Cleavage of Holliday junctions by GEN1 or SLX1A:SLX4:MUS81:EME1,(MUS81:EME2)",
+"id": "R-HSA-5693584",
+"url": "https://www.reactome.org/content/detail/R-HSA-5693584"
+},
+{
+"database": "Reactome",
+"description": "Initial resection of double-strand break ends",
+"id": "R-HSA-5693608",
+"url": "https://www.reactome.org/content/detail/R-HSA-5693608"
+},
+{
+"database": "Reactome",
+"description": "5' incision of damaged DNA strand by ERCC1:ERCC4 in TC-NER",
+"id": "R-HSA-6782204",
+"url": "https://www.reactome.org/content/detail/R-HSA-6782204"
+},
+{
+"database": "Reactome",
+"description": "3' incision by ERCC5 (XPG) in TC-NER",
+"id": "R-HSA-6782224",
+"url": "https://www.reactome.org/content/detail/R-HSA-6782224"
+},
+{
+"database": "Reactome",
+"description": "MRN:CtIP endonucleolytically cleaves single-strand DNA 3' to SPO11",
+"id": "R-HSA-9023941",
+"url": "https://www.reactome.org/content/detail/R-HSA-9023941"
+}
+],
+"ontology_iri": "http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn",
+"ontology_name": "go",
+"ontology_prefix": "GO",
+"short_form": "GO_0004520",
+"synonyms": [
+"endodeoxyribonuclease activity",
+"endonuclease G activity",
+"DNA nicking activity"
+],
+"term_replaced_by": null
+}
+]
+},
+"_links": {
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms?obo_id=GO%3A0004520"
+}
+},
+"page": {
+"number": 0,
+"size": 1,
+"totalElements": 1,
+"totalPages": 1
+}
+},
+"https://www.ebi.ac.uk/ols4/api/ontologies/go/terms?obo_id=GO%3A0004602": {
+"_embedded": {
+"terms": [
+{
+"_links": {
+"ancestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0004602/ancestors"
+},
+"graph": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0004602/graph"
+},
+"has_participant": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0004602/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0000057"
+},
+"hierarchicalAncestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0004602/hierarchicalAncestors"
+},
+"hierarchicalParents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0004602/hierarchicalParents"
+},
+"jstree": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0004602/jstree"
+},
+"parents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0004602/parents"
+},
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0004602?lang=en"
+}
+},
+"annotation": {
+"database_cross_reference": [
+"EC:1.11.1.9",
+"MetaCyc:GLUTATHIONE-PEROXIDASE-RXN",
+"RHEA:16833",
+"Reactome:R-HSA-2161791",
+"Reactome:R-HSA-2161946",
+"Reactome:R-HSA-2161959",
+"Reactome:R-HSA-2161999",
+"Reactome:R-HSA-3323013",
+"Reactome:R-HSA-3341277",
+"Reactome:R-HSA-3341397",
+"Reactome:R-HSA-3343700",
+"Reactome:R-HSA-6799695",
+"Reactome:R-HSA-71676"
+],
+"has exact match": [
+"http://purl.uniprot.org/enzyme/1.11.1.9",
+"http://rdf.rhea-db.org/16833"
+],
+"has_alternative_id": [
+"GO:0016224"
+],
+"has_obo_namespace": [
+"molecular_function"
+],
+"id": [
+"GO:0004602"
+],
+"term tracker item": [
+"https://github.com/geneontology/go-ontology/issues/25498",
+"https://github.com/geneontology/go-ontology/issues/30193"
+]
+},
+"description": [
+"Catalysis of the reaction: 2 glutathione + H2O2 = oxidized glutathione + 2 H2O."
+],
+"has_children": false,
+"in_subset": null,
+"iri": "http://purl.obolibrary.org/obo/GO_0004602",
+"is_defining_ontology": true,
+"is_obsolete": false,
+"is_preferred_root": false,
+"is_root": false,
+"label": "glutathione peroxidase activity",
+"lang": "en",
+"obo_definition_citation": [
+{
+"definition": "Catalysis of the reaction: 2 glutathione + H2O2 = oxidized glutathione + 2 H2O.",
+"oboXrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.11.1.9",
+"url": null
+},
+{
+"database": "PMID",
+"description": null,
+"id": "36771108",
+"url": "https://pubmed.ncbi.nlm.nih.gov/36771108"
+}
+]
+}
+],
+"obo_id": "GO:0004602",
+"obo_synonym": [
+{
+"name": "GSH peroxidase activity",
+"scope": "hasRelatedSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.11.1.9",
+"url": null
+}
+]
+},
+{
+"name": "glutathione:hydrogen-peroxide oxidoreductase activity",
+"scope": "hasRelatedSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.11.1.9",
+"url": null
+}
+]
+},
+{
+"name": "reduced glutathione peroxidase activity",
+"scope": "hasRelatedSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.11.1.9",
+"url": null
+}
+]
+},
+{
+"name": "selenium-glutathione peroxidase activity",
+"scope": "hasRelatedSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.11.1.9",
+"url": null
+}
+]
+}
+],
+"obo_xref": [
+{
+"database": "EC",
+"description": null,
+"id": "1.11.1.9",
+"url": null
+},
+{
+"database": "MetaCyc",
+"description": null,
+"id": "GLUTATHIONE-PEROXIDASE-RXN",
+"url": "https://biocyc.org/META/NEW-IMAGE?type=NIL&object=GLUTATHIONE-PEROXIDASE-RXN"
+},
+{
+"database": "RHEA",
+"description": null,
+"id": "16833",
+"url": "https://www.rhea-db.org/rhea/16833"
+},
+{
+"database": "Reactome",
+"description": "15S-HpETE is reduced to 15S-HETE by GPX1/2/4",
+"id": "R-HSA-2161791",
+"url": "https://www.reactome.org/content/detail/R-HSA-2161791"
+},
+{
+"database": "Reactome",
+"description": "5S-HpETE is reduced to 5S-HETE by GPX1/2/4",
+"id": "R-HSA-2161946",
+"url": "https://www.reactome.org/content/detail/R-HSA-2161946"
+},
+{
+"database": "Reactome",
+"description": "12R-HpETE is reduced to 12R-HETE by GPX1/2/4",
+"id": "R-HSA-2161959",
+"url": "https://www.reactome.org/content/detail/R-HSA-2161959"
+},
+{
+"database": "Reactome",
+"description": "12S-HpETE is reduced to 12S-HETE by GPX1/2/4",
+"id": "R-HSA-2161999",
+"url": "https://www.reactome.org/content/detail/R-HSA-2161999"
+},
+{
+"database": "Reactome",
+"description": "GPX1 catalyzes 2 glutathione, reduced + H2O2 => glutathione, oxidized + 2 H2O",
+"id": "R-HSA-3323013",
+"url": "https://www.reactome.org/content/detail/R-HSA-3323013"
+},
+{
+"database": "Reactome",
+"description": "GPX2 catalyzes 2 glutathione, reduced + H2O2 => glutathione, oxidized + 2 H2O",
+"id": "R-HSA-3341277",
+"url": "https://www.reactome.org/content/detail/R-HSA-3341277"
+},
+{
+"database": "Reactome",
+"description": "GPX3 catalyzes 2 glutathione, reduced + H2O2 => glutathione, oxidized + 2 H2O",
+"id": "R-HSA-3341397",
+"url": "https://www.reactome.org/content/detail/R-HSA-3341397"
+},
+{
+"database": "Reactome",
+"description": "PRDX6:GSTP1 catalyzes 2 glutathione, reduced + H2O2 => glutathione, oxidized + 2 H2O",
+"id": "R-HSA-3343700",
+"url": "https://www.reactome.org/content/detail/R-HSA-3343700"
+},
+{
+"database": "Reactome",
+"description": "GPX5,6 reduce H2O2 to H2O",
+"id": "R-HSA-6799695",
+"url": "https://www.reactome.org/content/detail/R-HSA-6799695"
+},
+{
+"database": "Reactome",
+"description": "GPX1 catalyzes reaction of reduced glutathione and H2O2 to form oxidized glutathione and H2O",
+"id": "R-HSA-71676",
+"url": "https://www.reactome.org/content/detail/R-HSA-71676"
+}
+],
+"ontology_iri": "http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn",
+"ontology_name": "go",
+"ontology_prefix": "GO",
+"short_form": "GO_0004602",
+"synonyms": [
+"non-selenium glutathione peroxidase activity",
+"GSH peroxidase activity",
+"glutathione:hydrogen-peroxide oxidoreductase activity",
+"reduced glutathione peroxidase activity",
+"selenium-glutathione peroxidase activity"
+],
+"term_replaced_by": null
+}
+]
+},
+"_links": {
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms?obo_id=GO%3A0004602"
+}
+},
+"page": {
+"number": 0,
+"size": 1,
+"totalElements": 1,
+"totalPages": 1
+}
+},
+"https://www.ebi.ac.uk/ols4/api/ontologies/go/terms?obo_id=GO%3A0004784": {
+"_embedded": {
+"terms": [
+{
+"_links": {
+"ancestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0004784/ancestors"
+},
+"graph": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0004784/graph"
+},
+"has_participant": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0004784/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0000057"
+},
+"hierarchicalAncestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0004784/hierarchicalAncestors"
+},
+"hierarchicalParents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0004784/hierarchicalParents"
+},
+"jstree": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0004784/jstree"
+},
+"parents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0004784/parents"
+},
+"part_of": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0004784/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+},
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0004784?lang=en"
+}
+},
+"annotation": {
+"database_cross_reference": [
+"EC:1.15.1.1",
+"MetaCyc:SUPEROX-DISMUT-RXN",
+"RHEA:20696",
+"Reactome:R-HSA-1222462",
+"Reactome:R-HSA-1222469",
+"Reactome:R-HSA-3299680",
+"Reactome:R-HSA-3299682",
+"Reactome:R-HSA-3299691",
+"Reactome:R-HSA-3777112"
+],
+"has exact match": [
+"http://purl.uniprot.org/enzyme/1.15.1.1",
+"http://rdf.rhea-db.org/20696"
+],
+"has_alternative_id": [
+"GO:0004785",
+"GO:0008382",
+"GO:0008383",
+"GO:0016954"
+],
+"has_obo_namespace": [
+"molecular_function"
+],
+"id": [
+"GO:0004784"
+],
+"term tracker item": [
+"https://github.com/geneontology/go-ontology/issues/30193"
+]
+},
+"description": [
+"Catalysis of the reaction: 2 superoxide + 2 H+ = O2 + H2O2."
+],
+"has_children": false,
+"in_subset": null,
+"iri": "http://purl.obolibrary.org/obo/GO_0004784",
+"is_defining_ontology": true,
+"is_obsolete": false,
+"is_preferred_root": false,
+"is_root": false,
+"label": "superoxide dismutase activity",
+"lang": "en",
+"obo_definition_citation": [
+{
+"definition": "Catalysis of the reaction: 2 superoxide + 2 H+ = O2 + H2O2.",
+"oboXrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.15.1.1",
+"url": null
+},
+{
+"database": "GOC",
+"description": null,
+"id": "vw",
+"url": null
+},
+{
+"database": "PMID",
+"description": null,
+"id": "15064408",
+"url": "https://pubmed.ncbi.nlm.nih.gov/15064408"
+}
+]
+}
+],
+"obo_id": "GO:0004784",
+"obo_synonym": [
+{
+"name": "Cu,Zn-SOD",
+"scope": "hasRelatedSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.15.1.1",
+"url": null
+}
+]
+},
+{
+"name": "Fe-SOD",
+"scope": "hasRelatedSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.15.1.1",
+"url": null
+}
+]
+},
+{
+"name": "Mn-SOD",
+"scope": "hasRelatedSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.15.1.1",
+"url": null
+}
+]
+},
+{
+"name": "SOD",
+"scope": "hasRelatedSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.15.1.1",
+"url": null
+}
+]
+},
+{
+"name": "SOD-1",
+"scope": "hasRelatedSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.15.1.1",
+"url": null
+}
+]
+},
+{
+"name": "SOD-2",
+"scope": "hasRelatedSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.15.1.1",
+"url": null
+}
+]
+},
+{
+"name": "SOD-3",
+"scope": "hasRelatedSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.15.1.1",
+"url": null
+}
+]
+},
+{
+"name": "SOD-4",
+"scope": "hasRelatedSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.15.1.1",
+"url": null
+}
+]
+},
+{
+"name": "SODF",
+"scope": "hasRelatedSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.15.1.1",
+"url": null
+}
+]
+},
+{
+"name": "SODS",
+"scope": "hasRelatedSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.15.1.1",
+"url": null
+}
+]
+},
+{
+"name": "cuprein",
+"scope": "hasRelatedSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.15.1.1",
+"url": null
+}
+]
+},
+{
+"name": "cytocuprein",
+"scope": "hasRelatedSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.15.1.1",
+"url": null
+}
+]
+},
+{
+"name": "erythrocuprein",
+"scope": "hasRelatedSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.15.1.1",
+"url": null
+}
+]
+},
+{
+"name": "hemocuprein",
+"scope": "hasRelatedSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.15.1.1",
+"url": null
+}
+]
+},
+{
+"name": "hepatocuprein",
+"scope": "hasRelatedSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.15.1.1",
+"url": null
+}
+]
+},
+{
+"name": "superoxide dismutase I",
+"scope": "hasRelatedSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.15.1.1",
+"url": null
+}
+]
+},
+{
+"name": "superoxide dismutase II",
+"scope": "hasRelatedSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.15.1.1",
+"url": null
+}
+]
+},
+{
+"name": "Cu-Zn superoxide dismutase activity",
+"scope": "hasNarrowSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.15.1.1",
+"url": null
+}
+]
+},
+{
+"name": "ferrisuperoxide dismutase activity",
+"scope": "hasNarrowSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "1.15.1.1",
+"url": null
+}
+]
+}
+],
+"obo_xref": [
+{
+"database": "EC",
+"description": null,
+"id": "1.15.1.1",
+"url": null
+},
+{
+"database": "MetaCyc",
+"description": null,
+"id": "SUPEROX-DISMUT-RXN",
+"url": "https://biocyc.org/META/NEW-IMAGE?type=NIL&object=SUPEROX-DISMUT-RXN"
+},
+{
+"database": "RHEA",
+"description": null,
+"id": "20696",
+"url": "https://www.rhea-db.org/rhea/20696"
+},
+{
+"database": "Reactome",
+"description": "SodB reduces superoxide to H2O2",
+"id": "R-HSA-1222462",
+"url": "https://www.reactome.org/content/detail/R-HSA-1222462"
+},
+{
+"database": "Reactome",
+"description": "SodC reduces superoxide to H2O2",
+"id": "R-HSA-1222469",
+"url": "https://www.reactome.org/content/detail/R-HSA-1222469"
+},
+{
+"database": "Reactome",
+"description": "SOD2 catalyzes 2H+ + 2O2.- => O2 + H2O2 (mitochondrial matrix)",
+"id": "R-HSA-3299680",
+"url": "https://www.reactome.org/content/detail/R-HSA-3299680"
+},
+{
+"database": "Reactome",
+"description": "SOD3 catalyzes 2H+ + 2O2.- => O2 + H2O2 (extracellular)",
+"id": "R-HSA-3299682",
+"url": "https://www.reactome.org/content/detail/R-HSA-3299682"
+},
+{
+"database": "Reactome",
+"description": "SOD1 catalyzes 2H+ + 2O2.- => O2 + H2O2 (cytosol)",
+"id": "R-HSA-3299691",
+"url": "https://www.reactome.org/content/detail/R-HSA-3299691"
+},
+{
+"database": "Reactome",
+"description": "SOD1 catalyzes 2H+ + O2.- => O2 + H2O2 (mitochondrial intermembrane space)",
+"id": "R-HSA-3777112",
+"url": "https://www.reactome.org/content/detail/R-HSA-3777112"
+}
+],
+"ontology_iri": "http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn",
+"ontology_name": "go",
+"ontology_prefix": "GO",
+"short_form": "GO_0004784",
+"synonyms": [
+"Mn, Fe superoxide dismutase",
+"copper, zinc superoxide dismutase activity",
+"iron superoxide dismutase activity",
+"iron superoxide oxidoreductase",
+"manganese superoxide dismutase activity",
+"manganese superoxide oxidoreductase",
+"nickel superoxide dismutase activity",
+"nickel superoxide oxidoreductase",
+"superoxide:superoxide oxidoreductase activity",
+"zinc superoxide oxidoreductase",
+"Cu,Zn-SOD",
+"Cu-Zn superoxide dismutase activity",
+"Fe-SOD",
+"Mn-SOD",
+"SOD",
+"SOD-1",
+"SOD-2",
+"SOD-3",
+"SOD-4",
+"SODF",
+"SODS",
+"cuprein",
+"cytocuprein",
+"erythrocuprein",
+"ferrisuperoxide dismutase activity",
+"hemocuprein",
+"hepatocuprein",
+"superoxide dismutase I",
+"superoxide dismutase II"
+],
+"term_replaced_by": null
+}
+]
+},
+"_links": {
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms?obo_id=GO%3A0004784"
+}
+},
+"page": {
+"number": 0,
+"size": 1,
+"totalElements": 1,
+"totalPages": 1
+}
+},
+"https://www.ebi.ac.uk/ols4/api/ontologies/go/terms?obo_id=GO%3A0006950": {
+"_embedded": {
+"terms": [
+{
+"_links": {
+"ancestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0006950/ancestors"
+},
+"children": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0006950/children"
+},
+"descendants": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0006950/descendants"
+},
+"graph": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0006950/graph"
+},
+"hierarchicalAncestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0006950/hierarchicalAncestors"
+},
+"hierarchicalChildren": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0006950/hierarchicalChildren"
+},
+"hierarchicalDescendants": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0006950/hierarchicalDescendants"
+},
+"hierarchicalParents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0006950/hierarchicalParents"
+},
+"jstree": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0006950/jstree"
+},
+"parents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0006950/parents"
+},
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0006950?lang=en"
+}
+},
+"annotation": {
+"has_obo_namespace": [
+"biological_process"
+],
+"id": [
+"GO:0006950"
+],
+"term tracker item": [
+"https://github.com/geneontology/go-ontology/issues/26810"
+]
+},
+"description": [
+"Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a disturbance in organismal or cellular homeostasis, usually, but not necessarily, exogenous (e.g. temperature, humidity, ionizing radiation)."
+],
+"has_children": true,
+"in_subset": [
+"goslim_candida",
+"goslim_chembl",
+"goslim_drosophila",
+"goslim_metagenomics",
+"goslim_plant",
+"goslim_plant_ribbon"
+],
+"iri": "http://purl.obolibrary.org/obo/GO_0006950",
+"is_defining_ontology": true,
+"is_obsolete": false,
+"is_preferred_root": false,
+"is_root": false,
+"label": "response to stress",
+"lang": "en",
+"obo_definition_citation": [
+{
+"definition": "Any process that results in a change in state or activity of a cell or an organism (in terms of movement, secretion, enzyme production, gene expression, etc.) as a result of a disturbance in organismal or cellular homeostasis, usually, but not necessarily, exogenous (e.g. temperature, humidity, ionizing radiation).",
+"oboXrefs": [
+{
+"database": "GOC",
+"description": null,
+"id": "mah",
+"url": null
+}
+]
+}
+],
+"obo_id": "GO:0006950",
+"obo_synonym": null,
+"obo_xref": null,
+"ontology_iri": "http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn",
+"ontology_name": "go",
+"ontology_prefix": "GO",
+"short_form": "GO_0006950",
+"synonyms": [
+"response to abiotic stress",
+"response to biotic stress"
+],
+"term_replaced_by": null
+}
+]
+},
+"_links": {
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms?obo_id=GO%3A0006950"
+}
+},
+"page": {
+"number": 0,
+"size": 1,
+"totalElements": 1,
+"totalPages": 1
+}
+},
+"https://www.ebi.ac.uk/ols4/api/ontologies/go/terms?obo_id=GO%3A0007623": {
+"_embedded": {
+"terms": [
+{
+"_links": {
+"ancestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0007623/ancestors"
+},
+"children": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0007623/children"
+},
+"descendants": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0007623/descendants"
+},
+"graph": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0007623/graph"
+},
+"hierarchicalAncestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0007623/hierarchicalAncestors"
+},
+"hierarchicalChildren": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0007623/hierarchicalChildren"
+},
+"hierarchicalDescendants": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0007623/hierarchicalDescendants"
+},
+"hierarchicalParents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0007623/hierarchicalParents"
+},
+"in_taxon": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0007623/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002162"
+},
+"jstree": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0007623/jstree"
+},
+"parents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0007623/parents"
+},
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0007623?lang=en"
+}
+},
+"annotation": {
+"database_cross_reference": [
+"Wikipedia:Circadian_rhythm",
+"Reactome:R-HSA-9909396"
+],
+"has_alternative_id": [
+"GO:0050895"
+],
+"has_obo_namespace": [
+"biological_process"
+],
+"id": [
+"GO:0007623"
+]
+},
+"description": [
+"Any biological process in an organism that recurs with a regularity of approximately 24 hours."
+],
+"has_children": true,
+"in_subset": [
+"goslim_drosophila",
+"goslim_plant",
+"goslim_plant_ribbon"
+],
+"iri": "http://purl.obolibrary.org/obo/GO_0007623",
+"is_defining_ontology": true,
+"is_obsolete": false,
+"is_preferred_root": false,
+"is_root": false,
+"label": "circadian rhythm",
+"lang": "en",
+"obo_definition_citation": [
+{
+"definition": "Any biological process in an organism that recurs with a regularity of approximately 24 hours.",
+"oboXrefs": [
+{
+"database": "GOC",
+"description": null,
+"id": "bf",
+"url": null
+},
+{
+"database": "GOC",
+"description": null,
+"id": "curators",
+"url": null
+}
+]
+}
+],
+"obo_id": "GO:0007623",
+"obo_synonym": null,
+"obo_xref": [
+{
+"database": "Wikipedia",
+"description": null,
+"id": "Circadian_rhythm",
+"url": "http://en.wikipedia.org/wiki/Circadian_rhythm"
+},
+{
+"database": "Reactome",
+"description": "Circadian clock",
+"id": "R-HSA-9909396",
+"url": "https://www.reactome.org/content/detail/R-HSA-9909396"
+}
+],
+"ontology_iri": "http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn",
+"ontology_name": "go",
+"ontology_prefix": "GO",
+"short_form": "GO_0007623",
+"synonyms": [
+"circadian process",
+"circadian response",
+"response to circadian rhythm"
+],
+"term_replaced_by": null
+}
+]
+},
+"_links": {
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms?obo_id=GO%3A0007623"
+}
+},
+"page": {
+"number": 0,
+"size": 1,
+"totalElements": 1,
+"totalPages": 1
+}
+},
+"https://www.ebi.ac.uk/ols4/api/ontologies/go/terms?obo_id=GO%3A0009772": {
+"_embedded": {
+"terms": [
+{
+"_links": {
+"ancestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0009772/ancestors"
+},
+"graph": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0009772/graph"
+},
+"hierarchicalAncestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0009772/hierarchicalAncestors"
+},
+"hierarchicalParents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0009772/hierarchicalParents"
+},
+"jstree": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0009772/jstree"
+},
+"parents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0009772/parents"
+},
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0009772?lang=en"
+}
+},
+"annotation": {
+"has_obo_namespace": [
+"biological_process"
+],
+"id": [
+"GO:0009772"
+],
+"never in taxon": [
+"http://purl.obolibrary.org/obo/NCBITaxon_33208",
+"http://purl.obolibrary.org/obo/NCBITaxon_4895"
+]
+},
+"description": [
+"A photosynthetic electron transport chain in which electrons move from the primary electron acceptor (Quinone, Q) through a chain of electron transport molecules in the thylakoid membrane until they reach the ultimate electron acceptor of Photosystem II, which is plastocyanin (PC). The electron is then passed to the P700 chlorophyll a molecules of the reaction centre of photosystem I."
+],
+"has_children": false,
+"in_subset": null,
+"iri": "http://purl.obolibrary.org/obo/GO_0009772",
+"is_defining_ontology": true,
+"is_obsolete": false,
+"is_preferred_root": false,
+"is_root": false,
+"label": "photosynthetic electron transport in photosystem II",
+"lang": "en",
+"obo_definition_citation": [
+{
+"definition": "A photosynthetic electron transport chain in which electrons move from the primary electron acceptor (Quinone, Q) through a chain of electron transport molecules in the thylakoid membrane until they reach the ultimate electron acceptor of Photosystem II, which is plastocyanin (PC). The electron is then passed to the P700 chlorophyll a molecules of the reaction centre of photosystem I.",
+"oboXrefs": [
+{
+"database": "GOC",
+"description": null,
+"id": "jid",
+"url": null
+},
+{
+"database": "ISBN",
+"description": null,
+"id": "0716731363",
+"url": "https://www.worldcat.org/search?q=bn%3A0716731363"
+},
+{
+"database": "ISBN",
+"description": null,
+"id": "0816017360",
+"url": "https://www.worldcat.org/search?q=bn%3A0816017360"
+}
+]
+}
+],
+"obo_id": "GO:0009772",
+"obo_synonym": null,
+"obo_xref": null,
+"ontology_iri": "http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn",
+"ontology_name": "go",
+"ontology_prefix": "GO",
+"short_form": "GO_0009772",
+"synonyms": [],
+"term_replaced_by": null
+}
+]
+},
+"_links": {
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms?obo_id=GO%3A0009772"
+}
+},
+"page": {
+"number": 0,
+"size": 1,
+"totalElements": 1,
+"totalPages": 1
+}
+},
+"https://www.ebi.ac.uk/ols4/api/ontologies/go/terms?obo_id=GO%3A0015977": {
+"_embedded": {
+"terms": [
+{
+"_links": {
+"ancestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0015977/ancestors"
+},
+"children": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0015977/children"
+},
+"descendants": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0015977/descendants"
+},
+"graph": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0015977/graph"
+},
+"hierarchicalAncestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0015977/hierarchicalAncestors"
+},
+"hierarchicalChildren": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0015977/hierarchicalChildren"
+},
+"hierarchicalDescendants": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0015977/hierarchicalDescendants"
+},
+"hierarchicalParents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0015977/hierarchicalParents"
+},
+"jstree": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0015977/jstree"
+},
+"parents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0015977/parents"
+},
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0015977?lang=en"
+}
+},
+"annotation": {
+"database_cross_reference": [
+"Wikipedia:Carbon_fixation"
+],
+"has_obo_namespace": [
+"biological_process"
+],
+"id": [
+"GO:0015977"
+]
+},
+"description": [
+"A metabolic process in which carbon (usually derived from carbon dioxide) is incorporated into organic compounds (usually carbohydrates)."
+],
+"has_children": true,
+"in_subset": null,
+"iri": "http://purl.obolibrary.org/obo/GO_0015977",
+"is_defining_ontology": true,
+"is_obsolete": false,
+"is_preferred_root": false,
+"is_root": false,
+"label": "carbon fixation",
+"lang": "en",
+"obo_definition_citation": [
+{
+"definition": "A metabolic process in which carbon (usually derived from carbon dioxide) is incorporated into organic compounds (usually carbohydrates).",
+"oboXrefs": [
+{
+"database": "GOC",
+"description": null,
+"id": "jl",
+"url": null
+},
+{
+"database": "GOC",
+"description": null,
+"id": "mah",
+"url": null
+}
+]
+}
+],
+"obo_id": "GO:0015977",
+"obo_synonym": null,
+"obo_xref": [
+{
+"database": "Wikipedia",
+"description": null,
+"id": "Carbon_fixation",
+"url": "http://en.wikipedia.org/wiki/Carbon_fixation"
+}
+],
+"ontology_iri": "http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn",
+"ontology_name": "go",
+"ontology_prefix": "GO",
+"short_form": "GO_0015977",
+"synonyms": [
+"autotrophic CO2 fixation pathway",
+"autotrophic CO2 fixation",
+"autotrophy",
+"carbon dioxide fixation"
+],
+"term_replaced_by": null
+}
+]
+},
+"_links": {
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms?obo_id=GO%3A0015977"
+}
+},
+"page": {
+"number": 0,
+"size": 1,
+"totalElements": 1,
+"totalPages": 1
+}
+},
+"https://www.ebi.ac.uk/ols4/api/ontologies/go/terms?obo_id=GO%3A0016168": {
+"_embedded": {
+"terms": [
+{
+"_links": {
+"ancestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0016168/ancestors"
+},
+"children": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0016168/children"
+},
+"descendants": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0016168/descendants"
+},
+"graph": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0016168/graph"
+},
+"has_primary_input": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0016168/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0004009"
+},
+"hierarchicalAncestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0016168/hierarchicalAncestors"
+},
+"hierarchicalChildren": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0016168/hierarchicalChildren"
+},
+"hierarchicalDescendants": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0016168/hierarchicalDescendants"
+},
+"hierarchicalParents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0016168/hierarchicalParents"
+},
+"jstree": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0016168/jstree"
+},
+"parents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0016168/parents"
+},
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0016168?lang=en"
+}
+},
+"annotation": {
+"Conforms To": [
+"http://purl.obolibrary.org/obo/go/patterns/binding.yaml"
+],
+"has_obo_namespace": [
+"molecular_function"
+],
+"id": [
+"GO:0016168"
+],
+"never in taxon": [
+"http://purl.obolibrary.org/obo/NCBITaxon_33208"
+]
+},
+"description": [
+"Binding to a chlorophyll; a compound of magnesium complexed in a porphyrin (tetrapyrrole) ring and which functions as a photosynthetic pigment."
+],
+"has_children": true,
+"in_subset": null,
+"iri": "http://purl.obolibrary.org/obo/GO_0016168",
+"is_defining_ontology": true,
+"is_obsolete": false,
+"is_preferred_root": false,
+"is_root": false,
+"label": "chlorophyll binding",
+"lang": "en",
+"obo_definition_citation": [
+{
+"definition": "Binding to a chlorophyll; a compound of magnesium complexed in a porphyrin (tetrapyrrole) ring and which functions as a photosynthetic pigment.",
+"oboXrefs": [
+{
+"database": "GOC",
+"description": null,
+"id": "jl",
+"url": null
+}
+]
+}
+],
+"obo_id": "GO:0016168",
+"obo_synonym": null,
+"obo_xref": null,
+"ontology_iri": "http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn",
+"ontology_name": "go",
+"ontology_prefix": "GO",
+"short_form": "GO_0016168",
+"synonyms": [],
+"term_replaced_by": null
+}
+]
+},
+"_links": {
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms?obo_id=GO%3A0016168"
+}
+},
+"page": {
+"number": 0,
+"size": 1,
+"totalElements": 1,
+"totalPages": 1
+}
+},
+"https://www.ebi.ac.uk/ols4/api/ontologies/go/terms?obo_id=GO%3A0016984": {
+"_embedded": {
+"terms": [
+{
+"_links": {
+"ancestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0016984/ancestors"
+},
+"graph": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0016984/graph"
+},
+"has_participant": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0016984/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0000057"
+},
+"hierarchicalAncestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0016984/hierarchicalAncestors"
+},
+"hierarchicalParents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0016984/hierarchicalParents"
+},
+"jstree": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0016984/jstree"
+},
+"parents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0016984/parents"
+},
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0016984?lang=en"
+}
+},
+"annotation": {
+"database_cross_reference": [
+"EC:4.1.1.39",
+"MetaCyc:RIBULOSE-BISPHOSPHATE-CARBOXYLASE-RXN",
+"RHEA:23124"
+],
+"has exact match": [
+"http://purl.uniprot.org/enzyme/4.1.1.39",
+"http://rdf.rhea-db.org/23124"
+],
+"has_obo_namespace": [
+"molecular_function"
+],
+"id": [
+"GO:0016984"
+]
+},
+"description": [
+"Catalysis of the reaction: 2 (2R)-3-phosphoglycerate + 2 H+ = CO2 + D-ribulose 1,5-bisphosphate + H2O."
+],
+"has_children": false,
+"in_subset": null,
+"iri": "http://purl.obolibrary.org/obo/GO_0016984",
+"is_defining_ontology": true,
+"is_obsolete": false,
+"is_preferred_root": false,
+"is_root": false,
+"label": "ribulose-bisphosphate carboxylase activity",
+"lang": "en",
+"obo_definition_citation": [
+{
+"definition": "Catalysis of the reaction: 2 (2R)-3-phosphoglycerate + 2 H+ = CO2 + D-ribulose 1,5-bisphosphate + H2O.",
+"oboXrefs": [
+{
+"database": "RHEA",
+"description": null,
+"id": "23124",
+"url": "https://www.rhea-db.org/rhea/23124"
+}
+]
+}
+],
+"obo_id": "GO:0016984",
+"obo_synonym": [
+{
+"name": "D-ribulose 1,5-diphosphate carboxylase activity",
+"scope": "hasExactSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "4.1.1.39",
+"url": null
+}
+]
+},
+{
+"name": "D-ribulose-1,5-bisphosphate carboxylase activity",
+"scope": "hasExactSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "4.1.1.39",
+"url": null
+}
+]
+},
+{
+"name": "RuBP carboxylase activity",
+"scope": "hasExactSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "4.1.1.39",
+"url": null
+}
+]
+},
+{
+"name": "RuBisCO activity",
+"scope": "hasExactSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "4.1.1.39",
+"url": null
+}
+]
+},
+{
+"name": "diphosphoribulose carboxylase activity",
+"scope": "hasExactSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "4.1.1.39",
+"url": null
+}
+]
+},
+{
+"name": "ribulose 1,5-bisphosphate carboxylase activity",
+"scope": "hasExactSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "4.1.1.39",
+"url": null
+}
+]
+},
+{
+"name": "ribulose 1,5-diphosphate carboxylase activity",
+"scope": "hasExactSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "4.1.1.39",
+"url": null
+}
+]
+},
+{
+"name": "ribulose 1,5-diphosphate carboxylase/oxygenase activity",
+"scope": "hasExactSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "4.1.1.39",
+"url": null
+}
+]
+},
+{
+"name": "ribulose bisphosphate carboxylase/oxygenase activity",
+"scope": "hasExactSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "4.1.1.39",
+"url": null
+}
+]
+},
+{
+"name": "ribulose diphosphate carboxylase activity",
+"scope": "hasExactSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "4.1.1.39",
+"url": null
+}
+]
+},
+{
+"name": "ribulose diphosphate carboxylase/oxygenase activity",
+"scope": "hasExactSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "4.1.1.39",
+"url": null
+}
+]
+},
+{
+"name": "carboxydismutase activity",
+"scope": "hasRelatedSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "EC",
+"description": null,
+"id": "4.1.1.39",
+"url": null
+}
+]
+}
+],
+"obo_xref": [
+{
+"database": "EC",
+"description": null,
+"id": "4.1.1.39",
+"url": null
+},
+{
+"database": "MetaCyc",
+"description": null,
+"id": "RIBULOSE-BISPHOSPHATE-CARBOXYLASE-RXN",
+"url": "https://biocyc.org/META/NEW-IMAGE?type=NIL&object=RIBULOSE-BISPHOSPHATE-CARBOXYLASE-RXN"
+},
+{
+"database": "RHEA",
+"description": null,
+"id": "23124",
+"url": "https://www.rhea-db.org/rhea/23124"
+}
+],
+"ontology_iri": "http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn",
+"ontology_name": "go",
+"ontology_prefix": "GO",
+"short_form": "GO_0016984",
+"synonyms": [
+"ribulose 1,5-bisphosphate carboxylase/oxygenase activity",
+"D-ribulose 1,5-diphosphate carboxylase activity",
+"D-ribulose-1,5-bisphosphate carboxylase activity",
+"RuBP carboxylase activity",
+"RuBisCO activity",
+"carboxydismutase activity",
+"diphosphoribulose carboxylase activity",
+"ribulose 1,5-bisphosphate carboxylase activity",
+"ribulose 1,5-diphosphate carboxylase activity",
+"ribulose 1,5-diphosphate carboxylase/oxygenase activity",
+"ribulose bisphosphate carboxylase/oxygenase activity",
+"ribulose diphosphate carboxylase activity",
+"ribulose diphosphate carboxylase/oxygenase activity"
+],
+"term_replaced_by": null
+}
+]
+},
+"_links": {
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms?obo_id=GO%3A0016984"
+}
+},
+"page": {
+"number": 0,
+"size": 1,
+"totalElements": 1,
+"totalPages": 1
+}
+},
+"https://www.ebi.ac.uk/ols4/api/ontologies/go/terms?obo_id=GO%3A0031470": {
+"_embedded": {
+"terms": [
+{
+"_links": {
+"ancestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0031470/ancestors"
+},
+"graph": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0031470/graph"
+},
+"hierarchicalAncestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0031470/hierarchicalAncestors"
+},
+"hierarchicalParents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0031470/hierarchicalParents"
+},
+"in_taxon": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0031470/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002162"
+},
+"jstree": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0031470/jstree"
+},
+"parents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0031470/parents"
+},
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FGO_0031470?lang=en"
+}
+},
+"annotation": {
+"database_cross_reference": [
+"Wikipedia:Carboxysome"
+],
+"has_obo_namespace": [
+"cellular_component"
+],
+"id": [
+"GO:0031470"
+],
+"term tracker item": [
+"https://github.com/geneontology/go-ontology/issues/19743"
+]
+},
+"description": [
+"An organelle consisting of a proteinaceous coat and enzymes for the fixation of CO2. It augments the concentration of CO2 in the vicinity of RuBisCO to increase the efficiency of CO2 fixation under atmospheric conditions."
+],
+"has_children": false,
+"in_subset": null,
+"iri": "http://purl.obolibrary.org/obo/GO_0031470",
+"is_defining_ontology": true,
+"is_obsolete": false,
+"is_preferred_root": false,
+"is_root": false,
+"label": "carboxysome",
+"lang": "en",
+"obo_definition_citation": [
+{
+"definition": "An organelle consisting of a proteinaceous coat and enzymes for the fixation of CO2. It augments the concentration of CO2 in the vicinity of RuBisCO to increase the efficiency of CO2 fixation under atmospheric conditions.",
+"oboXrefs": [
+{
+"database": "GOC",
+"description": null,
+"id": "js",
+"url": null
+},
+{
+"database": "PMID",
+"description": null,
+"id": "28934381",
+"url": "https://pubmed.ncbi.nlm.nih.gov/28934381"
+},
+{
+"database": "PMID",
+"description": null,
+"id": "8157606",
+"url": "https://pubmed.ncbi.nlm.nih.gov/8157606"
+},
+{
+"database": "PMID",
+"description": null,
+"id": "8491708",
+"url": "https://pubmed.ncbi.nlm.nih.gov/8491708"
+}
+]
+}
+],
+"obo_id": "GO:0031470",
+"obo_synonym": null,
+"obo_xref": [
+{
+"database": "Wikipedia",
+"description": null,
+"id": "Carboxysome",
+"url": "http://en.wikipedia.org/wiki/Carboxysome"
+}
+],
+"ontology_iri": "http://purl.obolibrary.org/obo/go/extensions/go-plus.ofn",
+"ontology_name": "go",
+"ontology_prefix": "GO",
+"short_form": "GO_0031470",
+"synonyms": [],
+"term_replaced_by": null
+}
+]
+},
+"_links": {
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/go/terms?obo_id=GO%3A0031470"
+}
+},
+"page": {
+"number": 0,
+"size": 1,
+"totalElements": 1,
+"totalPages": 1
+}
+},
 "https://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FCL_0000815": {
 "_links": {
 "ancestors": {
@@ -13762,6 +16392,619 @@
 "Bacteria in blood cultures"
 ],
 "term_replaced_by": null
+},
+"https://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP%3A0020113": {
+"_embedded": {
+"terms": [
+{
+"_links": {
+"ancestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0020113/ancestors"
+},
+"graph": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0020113/graph"
+},
+"hierarchicalAncestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0020113/hierarchicalAncestors"
+},
+"hierarchicalParents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0020113/hierarchicalParents"
+},
+"jstree": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0020113/jstree"
+},
+"parents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0020113/parents"
+},
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0020113?lang=en"
+}
+},
+"annotation": {
+"Creator": [
+"https://orcid.org/0000-0002-0736-9199"
+],
+"Date": [
+"2019-04-08T20:51:32Z"
+],
+"has_alternative_id": [
+"HP:0030336"
+]
+},
+"description": [
+"Abnormal decrease of the regulatory (Treg) CD4+ T cell subpopulation, commonly characterized by the CD127lowCD25hi phenotype, with the optional additional positivity for FoxP3, measured as percentage of total CD4+ T cells in the blood, compared to a reference range for a given sex and age-group."
+],
+"has_children": false,
+"in_subset": null,
+"iri": "http://purl.obolibrary.org/obo/HP_0020113",
+"is_defining_ontology": true,
+"is_obsolete": false,
+"is_preferred_root": false,
+"is_root": false,
+"label": "Decreased regulatory T cell proportion",
+"lang": "en",
+"obo_definition_citation": null,
+"obo_id": "HP:0020113",
+"obo_synonym": null,
+"obo_xref": null,
+"ontology_iri": "http://purl.obolibrary.org/obo/hp/hp-international.owl",
+"ontology_name": "hp",
+"ontology_prefix": "HP",
+"short_form": "HP_0020113",
+"synonyms": [
+"Absence of CD4+CD25+ Tregs",
+"Decreased proportion of CD4+CD25+ Treg cells",
+"Decreased proportion of CD4+CD25+ regulatory T cells",
+"Decreased proportion of regulatory T cells",
+"Reduced proportion of CD4+CD25+ regulatory T cells"
+],
+"term_replaced_by": null
+}
+]
+},
+"_links": {
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP%3A0020113"
+}
+},
+"page": {
+"number": 0,
+"size": 1,
+"totalElements": 1,
+"totalPages": 1
+}
+},
+"https://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP%3A0025830": {
+"_embedded": {
+"terms": [
+{
+"_links": {
+"ancestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0025830/ancestors"
+},
+"children": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0025830/children"
+},
+"descendants": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0025830/descendants"
+},
+"graph": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0025830/graph"
+},
+"hierarchicalAncestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0025830/hierarchicalAncestors"
+},
+"hierarchicalChildren": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0025830/hierarchicalChildren"
+},
+"hierarchicalDescendants": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0025830/hierarchicalDescendants"
+},
+"hierarchicalParents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0025830/hierarchicalParents"
+},
+"jstree": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0025830/jstree"
+},
+"parents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0025830/parents"
+},
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0025830?lang=en"
+}
+},
+"annotation": {
+"Creator": [
+"https://orcid.org/0000-0002-0736-9199"
+],
+"Date": [
+"2025-04-27T06:23:08Z"
+]
+},
+"description": [
+"TH17 cells are interleukin-17-producing CD4+ T cells.",
+"Abnormal increase or decrease of Th17 cells, commonly characterized through the intracellular synthesis of IL-17 or surface expression of CCR6, measured as proportion of total CD3+CD4+ T cells, usually after stimulation. The stimulation is usually unspecific and may include the use of anti-CD3 beads or antibodies, the use of phorbol-12-myristate-13-acetate (PMA) with ionomycin, or staphylococcal enterotoxin B (SEB). Length of incubation and strength of stimulation may vary between laboratories."
+],
+"has_children": true,
+"in_subset": null,
+"iri": "http://purl.obolibrary.org/obo/HP_0025830",
+"is_defining_ontology": true,
+"is_obsolete": false,
+"is_preferred_root": false,
+"is_root": false,
+"label": "Abnormal Th17 T cell proportion",
+"lang": "en",
+"obo_definition_citation": [
+{
+"definition": "Abnormal increase or decrease of Th17 cells, commonly characterized through the intracellular synthesis of IL-17 or surface expression of CCR6, measured as proportion of total CD3+CD4+ T cells, usually after stimulation. The stimulation is usually unspecific and may include the use of anti-CD3 beads or antibodies, the use of phorbol-12-myristate-13-acetate (PMA) with ionomycin, or staphylococcal enterotoxin B (SEB). Length of incubation and strength of stimulation may vary between laboratories.",
+"oboXrefs": [
+{
+"database": "PMID",
+"description": null,
+"id": "36596896",
+"url": "https://pubmed.ncbi.nlm.nih.gov/36596896"
+}
+]
+}
+],
+"obo_id": "HP:0025830",
+"obo_synonym": null,
+"obo_xref": null,
+"ontology_iri": "http://purl.obolibrary.org/obo/hp/hp-international.owl",
+"ontology_name": "hp",
+"ontology_prefix": "HP",
+"short_form": "HP_0025830",
+"synonyms": [],
+"term_replaced_by": null
+}
+]
+},
+"_links": {
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP%3A0025830"
+}
+},
+"page": {
+"number": 0,
+"size": 1,
+"totalElements": 1,
+"totalPages": 1
+}
+},
+"https://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP%3A0031392": {
+"_embedded": {
+"terms": [
+{
+"_links": {
+"ancestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0031392/ancestors"
+},
+"children": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0031392/children"
+},
+"descendants": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0031392/descendants"
+},
+"graph": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0031392/graph"
+},
+"hierarchicalAncestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0031392/hierarchicalAncestors"
+},
+"hierarchicalChildren": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0031392/hierarchicalChildren"
+},
+"hierarchicalDescendants": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0031392/hierarchicalDescendants"
+},
+"hierarchicalParents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0031392/hierarchicalParents"
+},
+"jstree": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0031392/jstree"
+},
+"parents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0031392/parents"
+},
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0031392?lang=en"
+}
+},
+"annotation": {
+"Creator": [
+"https://orcid.org/0000-0002-0736-9199"
+],
+"Date": [
+"2017-09-02T17:05:31Z"
+],
+"has_alternative_id": [
+"HP:0025620",
+"HP:0500263",
+"HP:0500267"
+]
+},
+"description": [
+"Abnormal increase or decrease of any CD4+ T cell subpopulation, measured as percentage of total CD4+ T cells in the blood, compared to a reference range for a given sex and age-group."
+],
+"has_children": true,
+"in_subset": null,
+"iri": "http://purl.obolibrary.org/obo/HP_0031392",
+"is_defining_ontology": true,
+"is_obsolete": false,
+"is_preferred_root": false,
+"is_root": false,
+"label": "Abnormal CD4+ T cell subset proportion",
+"lang": "en",
+"obo_definition_citation": null,
+"obo_id": "HP:0031392",
+"obo_synonym": null,
+"obo_xref": null,
+"ontology_iri": "http://purl.obolibrary.org/obo/hp/hp-international.owl",
+"ontology_name": "hp",
+"ontology_prefix": "HP",
+"short_form": "HP_0031392",
+"synonyms": [
+"Abnormal CD4+ T cell subset",
+"Abnormal CD4+ T cell subsets",
+"Abnormal helper T cell proportion",
+"Abnormal proportion of CD4+ T cells",
+"Abnormal proportion of CD4-positive T cells",
+"Abnormal proportion of CD4-positive helper T cells",
+"Abnormal proportion of CD4-positive, alpha-beta T cells",
+"Abnormal proportion of circulating T-helper cells"
+],
+"term_replaced_by": null
+}
+]
+},
+"_links": {
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/hp/terms?obo_id=HP%3A0031392"
+}
+},
+"page": {
+"number": 0,
+"size": 1,
+"totalElements": 1,
+"totalPages": 1
+}
+},
+"https://www.ebi.ac.uk/ols4/api/ontologies/iceo/terms?obo_id=ICEO%3A0000036": {
+"_embedded": {
+"terms": [
+{
+"_links": {
+"ancestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/iceo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FICEO_0000036/ancestors"
+},
+"graph": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/iceo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FICEO_0000036/graph"
+},
+"hierarchicalAncestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/iceo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FICEO_0000036/hierarchicalAncestors"
+},
+"hierarchicalParents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/iceo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FICEO_0000036/hierarchicalParents"
+},
+"jstree": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/iceo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FICEO_0000036/jstree"
+},
+"parents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/iceo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FICEO_0000036/parents"
+},
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/iceo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FICEO_0000036?lang=en"
+}
+},
+"annotation": {
+"alternative label": [
+"MOB"
+],
+"definition source": [
+"https://en.wikipedia.org/wiki/Relaxase"
+],
+"term editor": [
+"Meng LIU (Mia), Oliver He"
+]
+},
+"description": [
+"A relaxase is a single-strand DNA transesterase enzyme produced by some prokaryotes and viruses, which nicks the dsDNA and remains covalently bound to the resulting ssDNA. Relaxases are responsible for site- and strand-specific nicks in double-stranded DNA."
+],
+"has_children": false,
+"in_subset": null,
+"iri": "http://purl.obolibrary.org/obo/ICEO_0000036",
+"is_defining_ontology": true,
+"is_obsolete": false,
+"is_preferred_root": false,
+"is_root": false,
+"label": "relaxase",
+"lang": "en",
+"obo_definition_citation": null,
+"obo_id": "ICEO:0000036",
+"obo_synonym": null,
+"obo_xref": null,
+"ontology_iri": "http://purl.obolibrary.org/obo/2019/1/ICEO",
+"ontology_name": "iceo",
+"ontology_prefix": "ICEO",
+"short_form": "ICEO_0000036",
+"synonyms": [],
+"term_replaced_by": null
+}
+]
+},
+"_links": {
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/iceo/terms?obo_id=ICEO%3A0000036"
+}
+},
+"page": {
+"number": 0,
+"size": 1,
+"totalElements": 1,
+"totalPages": 1
+}
+},
+"https://www.ebi.ac.uk/ols4/api/ontologies/ido/terms?obo_id=IDO%3A0000528": {
+"_embedded": {
+"terms": [
+{
+"_links": {
+"ancestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/ido/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FIDO_0000528/ancestors"
+},
+"children": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/ido/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FIDO_0000528/children"
+},
+"descendants": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/ido/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FIDO_0000528/descendants"
+},
+"graph": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/ido/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FIDO_0000528/graph"
+},
+"hierarchicalAncestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/ido/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FIDO_0000528/hierarchicalAncestors"
+},
+"hierarchicalChildren": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/ido/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FIDO_0000528/hierarchicalChildren"
+},
+"hierarchicalDescendants": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/ido/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FIDO_0000528/hierarchicalDescendants"
+},
+"hierarchicalParents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/ido/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FIDO_0000528/hierarchicalParents"
+},
+"jstree": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/ido/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FIDO_0000528/jstree"
+},
+"parents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/ido/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FIDO_0000528/parents"
+},
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/ido/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FIDO_0000528?lang=en"
+}
+},
+"annotation": {
+"term editor": [
+"Albert Goldfain",
+"Alexander Diehl",
+"Lindsay Cowell"
+]
+},
+"description": [
+"A material entity with a pathogenic disposition."
+],
+"has_children": true,
+"in_subset": null,
+"iri": "http://purl.obolibrary.org/obo/IDO_0000528",
+"is_defining_ontology": true,
+"is_obsolete": false,
+"is_preferred_root": false,
+"is_root": false,
+"label": "pathogen",
+"lang": "en",
+"obo_definition_citation": null,
+"obo_id": "IDO:0000528",
+"obo_synonym": null,
+"obo_xref": null,
+"ontology_iri": "http://purl.obolibrary.org/obo/ido.owl",
+"ontology_name": "ido",
+"ontology_prefix": "IDO",
+"short_form": "IDO_0000528",
+"synonyms": [],
+"term_replaced_by": null
+}
+]
+},
+"_links": {
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/ido/terms?obo_id=IDO%3A0000528"
+}
+},
+"page": {
+"number": 0,
+"size": 1,
+"totalElements": 1,
+"totalPages": 1
+}
+},
+"https://www.ebi.ac.uk/ols4/api/ontologies/mesh/terms?obo_id=MESH%3AD037521": {
+"_error": 404
+},
+"https://www.ebi.ac.uk/ols4/api/ontologies/mesh/terms?obo_id=mesh%3AD037521": {
+"_embedded": {
+"terms": [
+{
+"_links": {
+"ancestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/mesh/terms/http%253A%252F%252Fid.nlm.nih.gov%252Fmesh%252FD037521/ancestors"
+},
+"children": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/mesh/terms/http%253A%252F%252Fid.nlm.nih.gov%252Fmesh%252FD037521/children"
+},
+"descendants": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/mesh/terms/http%253A%252F%252Fid.nlm.nih.gov%252Fmesh%252FD037521/descendants"
+},
+"graph": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/mesh/terms/http%253A%252F%252Fid.nlm.nih.gov%252Fmesh%252FD037521/graph"
+},
+"hierarchicalAncestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/mesh/terms/http%253A%252F%252Fid.nlm.nih.gov%252Fmesh%252FD037521/hierarchicalAncestors"
+},
+"hierarchicalChildren": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/mesh/terms/http%253A%252F%252Fid.nlm.nih.gov%252Fmesh%252FD037521/hierarchicalChildren"
+},
+"hierarchicalDescendants": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/mesh/terms/http%253A%252F%252Fid.nlm.nih.gov%252Fmesh%252FD037521/hierarchicalDescendants"
+},
+"hierarchicalParents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/mesh/terms/http%253A%252F%252Fid.nlm.nih.gov%252Fmesh%252FD037521/hierarchicalParents"
+},
+"jstree": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/mesh/terms/http%253A%252F%252Fid.nlm.nih.gov%252Fmesh%252FD037521/jstree"
+},
+"parents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/mesh/terms/http%253A%252F%252Fid.nlm.nih.gov%252Fmesh%252FD037521/parents"
+},
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/mesh/terms/http%253A%252F%252Fid.nlm.nih.gov%252Fmesh%252FD037521?lang=en"
+}
+},
+"annotation": {},
+"description": [
+"Those components of an organism that determine its capacity to cause disease but are not required for its viability per se. Two classes have been characterized: TOXINS, BIOLOGICAL and surface adhesion molecules that effect the ability of the microorganism to invade and colonize a host. (From Davis et al., Microbiology, 4th ed. p486)"
+],
+"has_children": true,
+"in_subset": null,
+"iri": "http://id.nlm.nih.gov/mesh/D037521",
+"is_defining_ontology": true,
+"is_obsolete": false,
+"is_preferred_root": false,
+"is_root": false,
+"label": "Virulence Factors",
+"lang": "en",
+"obo_definition_citation": null,
+"obo_id": "mesh:D037521",
+"obo_synonym": null,
+"obo_xref": null,
+"ontology_iri": "https://w3id.org/biopragmatics/resources/mesh/mesh.ofn",
+"ontology_name": "mesh",
+"ontology_prefix": "mesh",
+"short_form": "mesh_D037521",
+"synonyms": [
+"Factor, Pathogenicity",
+"Factor, Virulence",
+"Factors, Pathogenicity",
+"Factors, Virulence",
+"Pathogenicity Factor",
+"Pathogenicity Factors",
+"Virulence Factor"
+],
+"term_replaced_by": null
+}
+]
+},
+"_links": {
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/mesh/terms?obo_id=mesh%3AD037521"
+}
+},
+"page": {
+"number": 0,
+"size": 1,
+"totalElements": 1,
+"totalPages": 1
+}
+},
+"https://www.ebi.ac.uk/ols4/api/ontologies/micro/terms?obo_id=MICRO%3A0001367": {
+"_embedded": {
+"terms": [
+{
+"_links": {
+"ancestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/micro/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMICRO_0001367/ancestors"
+},
+"children": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/micro/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMICRO_0001367/children"
+},
+"descendants": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/micro/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMICRO_0001367/descendants"
+},
+"graph": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/micro/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMICRO_0001367/graph"
+},
+"has_characteristic": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/micro/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMICRO_0001367/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0000053"
+},
+"has_prokaryotic_physiological_quality": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/micro/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMICRO_0001367/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMICRO_0001468"
+},
+"has_quality": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/micro/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMICRO_0001367/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0000086"
+},
+"hierarchicalAncestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/micro/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMICRO_0001367/hierarchicalAncestors"
+},
+"hierarchicalChildren": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/micro/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMICRO_0001367/hierarchicalChildren"
+},
+"hierarchicalDescendants": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/micro/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMICRO_0001367/hierarchicalDescendants"
+},
+"hierarchicalParents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/micro/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMICRO_0001367/hierarchicalParents"
+},
+"jstree": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/micro/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMICRO_0001367/jstree"
+},
+"parents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/micro/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMICRO_0001367/parents"
+},
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/micro/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FMICRO_0001367?lang=en"
+}
+},
+"annotation": {
+"createdBy": [
+"Carrine Blank"
+],
+"definition": [
+"Prokaryote specialized with respect to salinity, which grows optimally at salinities of > 1.7%."
+]
+},
+"description": [],
+"has_children": true,
+"in_subset": null,
+"iri": "http://purl.obolibrary.org/obo/MICRO_0001367",
+"is_defining_ontology": true,
+"is_obsolete": false,
+"is_preferred_root": false,
+"is_root": false,
+"label": "halophile",
+"lang": "en",
+"obo_definition_citation": null,
+"obo_id": "MICRO:0001367",
+"obo_synonym": null,
+"obo_xref": null,
+"ontology_iri": "http://purl.obolibrary.org/obo/MicrO.owl",
+"ontology_name": "micro",
+"ontology_prefix": "MICRO",
+"short_form": "MICRO_0001367",
+"synonyms": [],
+"term_replaced_by": null
+}
+]
+},
+"_links": {
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/micro/terms?obo_id=MICRO%3A0001367"
+}
+},
+"page": {
+"number": 0,
+"size": 1,
+"totalElements": 1,
+"totalPages": 1
+}
 },
 "https://www.ebi.ac.uk/ols4/api/ontologies/mondo/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FHP_0001513": {
 "_links": {
@@ -21621,6 +24864,87 @@
 ],
 "term_replaced_by": null
 },
+"https://www.ebi.ac.uk/ols4/api/ontologies/pco/terms?obo_id=PCO%3A1000004": {
+"_embedded": {
+"terms": [
+{
+"_links": {
+"ancestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/pco/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FPCO_1000004/ancestors"
+},
+"graph": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/pco/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FPCO_1000004/graph"
+},
+"hierarchicalAncestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/pco/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FPCO_1000004/hierarchicalAncestors"
+},
+"hierarchicalParents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/pco/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FPCO_1000004/hierarchicalParents"
+},
+"jstree": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/pco/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FPCO_1000004/jstree"
+},
+"parents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/pco/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FPCO_1000004/parents"
+},
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/pco/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FPCO_1000004?lang=en"
+}
+},
+"annotation": {
+"definition source": [
+"http://dx.doi.org/10.1038/ismej.2009.88"
+],
+"editor note": [
+"A class for a collection of organisms considered \"microbial\" and an accompanying quality in PATO (e.g. \"microscopic\") would be useful to better axiomatise this class. See https://github.com/PopulationAndCommunityOntology/pco/issues/22"
+],
+"has curation status": [
+"http://purl.obolibrary.org/obo/IAO_0000125"
+],
+"term editor": [
+"http://orcid.org/0000-0002-4366-3088"
+]
+},
+"description": [
+"An ecological community which is composed of co-existing populations of microbial organisms that interact, directly or indirectly, such that they impact one another's ecological fitness.",
+"The definition of a microbial species is deeply debated, however, units of phylogenetic and functional diversity are recognised with respect to their varying roles in an ecosystem. In turn, there exist multiple operational definitions of microbial community, such as local, phenomenological, and indexical communities. This class seeks to capture microbial communities in a very broad sense, as collections of phylogenetically and functionally divergent microbial organisms co-existing, potentially interacting, and competing for niche space in the same ecosystem over a period of time in which their causal footprints overlap one another."
+],
+"has_children": false,
+"in_subset": null,
+"iri": "http://purl.obolibrary.org/obo/PCO_1000004",
+"is_defining_ontology": true,
+"is_obsolete": false,
+"is_preferred_root": false,
+"is_root": false,
+"label": "microbial community",
+"lang": "en",
+"obo_definition_citation": null,
+"obo_id": "PCO:1000004",
+"obo_synonym": null,
+"obo_xref": null,
+"ontology_iri": "http://purl.obolibrary.org/obo/pco.owl",
+"ontology_name": "pco",
+"ontology_prefix": "PCO",
+"short_form": "PCO_1000004",
+"synonyms": [
+"microbiota"
+],
+"term_replaced_by": null
+}
+]
+},
+"_links": {
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/pco/terms?obo_id=PCO%3A1000004"
+}
+},
+"page": {
+"number": 0,
+"size": 1,
+"totalElements": 1,
+"totalPages": 1
+}
+},
 "https://www.ebi.ac.uk/ols4/api/ontologies/peco/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FPECO_0007248": {
 "_links": {
 "ancestors": {
@@ -21776,6 +25100,100 @@
 "open field study (related)"
 ],
 "term_replaced_by": null
+},
+"https://www.ebi.ac.uk/ols4/api/ontologies/peco/terms?obo_id=PECO%3A0007248": {
+"_embedded": {
+"terms": [
+{
+"_links": {
+"ancestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/peco/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FPECO_0007248/ancestors"
+},
+"graph": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/peco/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FPECO_0007248/graph"
+},
+"hierarchicalAncestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/peco/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FPECO_0007248/hierarchicalAncestors"
+},
+"hierarchicalParents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/peco/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FPECO_0007248/hierarchicalParents"
+},
+"jstree": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/peco/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FPECO_0007248/jstree"
+},
+"parents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/peco/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FPECO_0007248/parents"
+},
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/peco/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FPECO_0007248?lang=en"
+}
+},
+"annotation": {
+"has_alternative_id": [
+"EO:0007248"
+],
+"has_obo_namespace": [
+"plant_experimental_conditions_ontology"
+],
+"id": [
+"PECO:0007248"
+]
+},
+"description": [
+"This may involve supplemental treatments in addition to any naturally occurring conditions.",
+"A plant study condition (PECO:0007231) where the plants were grown under greenhouse conditions."
+],
+"has_children": false,
+"in_subset": null,
+"iri": "http://purl.obolibrary.org/obo/PECO_0007248",
+"is_defining_ontology": true,
+"is_obsolete": false,
+"is_preferred_root": false,
+"is_root": false,
+"label": "greenhouse study",
+"lang": "en",
+"obo_definition_citation": [
+{
+"definition": "A plant study condition (PECO:0007231) where the plants were grown under greenhouse conditions.",
+"oboXrefs": [
+{
+"database": "Gramene",
+"description": null,
+"id": "pankaj_jaiswal",
+"url": null
+},
+{
+"database": "PECO",
+"description": null,
+"id": "cooperl",
+"url": null
+}
+]
+}
+],
+"obo_id": "PECO:0007248",
+"obo_synonym": null,
+"obo_xref": null,
+"ontology_iri": "http://purl.obolibrary.org/obo/peco.owl",
+"ontology_name": "peco",
+"ontology_prefix": "PECO",
+"short_form": "PECO_0007248",
+"synonyms": [],
+"term_replaced_by": null
+}
+]
+},
+"_links": {
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/peco/terms?obo_id=PECO%3A0007248"
+}
+},
+"page": {
+"number": 0,
+"size": 1,
+"totalElements": 1,
+"totalPages": 1
+}
 },
 "https://www.ebi.ac.uk/ols4/api/ontologies/pr/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FPR_000010041": {
 "_links": {
@@ -22972,6 +26390,314 @@
 "spraint"
 ],
 "term_replaced_by": null
+},
+"https://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms?obo_id=UBERON%3A0001555": {
+"_embedded": {
+"terms": [
+{
+"_links": {
+"ancestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001555/ancestors"
+},
+"children": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001555/children"
+},
+"connects": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001555/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002176"
+},
+"descendants": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001555/descendants"
+},
+"develops_from": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001555/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002202"
+},
+"graph": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001555/graph"
+},
+"hierarchicalAncestors": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001555/hierarchicalAncestors"
+},
+"hierarchicalChildren": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001555/hierarchicalChildren"
+},
+"hierarchicalDescendants": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001555/hierarchicalDescendants"
+},
+"hierarchicalParents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001555/hierarchicalParents"
+},
+"immediate_transformation_of": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001555/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002495"
+},
+"in_taxon": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001555/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FRO_0002162"
+},
+"jstree": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001555/jstree"
+},
+"parents": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001555/parents"
+},
+"part_of": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001555/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FBFO_0000050"
+},
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms/http%253A%252F%252Fpurl.obolibrary.org%252Fobo%252FUBERON_0001555?lang=en"
+}
+},
+"annotation": {
+"database_cross_reference": [
+"AAO:0010023",
+"BILA:0000083",
+"BTO:0000511",
+"BTO:0000545",
+"EHDAA2:0000726",
+"EHDAA:518",
+"EMAPA:16247",
+"FMA:45615",
+"MA:0000917",
+"NCIT:C34082",
+"TAO:0000112",
+"TGMA:0001819",
+"VHOG:0000309",
+"WBbt:0005743",
+"ZFA:0000112",
+"galen:AlimentaryTract",
+"FBbt:00003125",
+"MESH:D041981",
+"UMLS:C0017189"
+],
+"external_definition": [
+"The alimentary or digestive tract, and associated organs.[TAO]"
+],
+"external_ontology_notes": [
+"FMA also has a term 'gastrointestinal tract', but this includes the liver.",
+"we place the MA and EMAPA class here, although the intent is probably a smaller region. See https://github.com/obophenotype/uberon/issues/509"
+],
+"homology_notes": [
+"The bilaterian gut is typically a complete tube that opens to the exterior at both ends. It consists of mouth, foregut, midgut, hindgut, and anus (reference 1); Although all vertebrates have a digestive tract and accessory glands, various parts of this system are not necessarily homologous, analogous, or even present in all species. Therefore, broad comparisons can be best made under the listings of headgut, foregut, midgut, pancreas and biliary system, hindgut (reference 2).[well established][VHOG]"
+],
+"id": [
+"UBERON:0001555"
+],
+"never in taxon": [
+"http://purl.obolibrary.org/obo/NCBITaxon_147099",
+"http://purl.obolibrary.org/obo/NCBITaxon_41324"
+],
+"terminology_notes": [
+"we following Kardong in naming the entire tube from mouth to anus the alimentary canal. Kardong calls the portion of this tract that excludes buccal cavity and pharynx the 'alimentary canal', consider adding an extra class for this"
+]
+},
+"description": [
+"A tube extending from the mouth to the anus."
+],
+"has_children": true,
+"in_subset": [
+"human_reference_atlas",
+"human_subset",
+"mouse_subset",
+"uberon_slim",
+"vertebrate_core"
+],
+"iri": "http://purl.obolibrary.org/obo/UBERON_0001555",
+"is_defining_ontology": true,
+"is_obsolete": false,
+"is_preferred_root": false,
+"is_root": false,
+"label": "digestive tract",
+"lang": "en",
+"obo_definition_citation": [
+{
+"definition": "A tube extending from the mouth to the anus.",
+"oboXrefs": [
+{
+"database": "Wikipedia",
+"description": null,
+"id": "Talk",
+"url": null
+},
+{
+"database": null,
+"description": null,
+"id": "https://github.com/geneontology/go-ontology/issues/7549",
+"url": "https://github.com/geneontology/go-ontology/issues/7549"
+}
+]
+}
+],
+"obo_id": "UBERON:0001555",
+"obo_synonym": [
+{
+"name": "enteric tract",
+"scope": "hasExactSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "ZFA",
+"description": null,
+"id": "0000112",
+"url": "https://zfin.org/action/ontology/term/ZFA:0000112"
+}
+]
+},
+{
+"name": "digestive canal",
+"scope": "hasRelatedSynonym",
+"type": null,
+"xrefs": [
+{
+"database": "BTO",
+"description": null,
+"id": "0000058",
+"url": "http://purl.obolibrary.org/obo/BTO_0000058"
+}
+]
+}
+],
+"obo_xref": [
+{
+"database": "AAO",
+"description": null,
+"id": "0010023",
+"url": "http://purl.obolibrary.org/obo/AAO_0010023"
+},
+{
+"database": "BILA",
+"description": null,
+"id": "0000083",
+"url": "http://purl.obolibrary.org/obo/BILA_0000083"
+},
+{
+"database": "BTO",
+"description": null,
+"id": "0000511",
+"url": "http://purl.obolibrary.org/obo/BTO_0000511"
+},
+{
+"database": "BTO",
+"description": null,
+"id": "0000545",
+"url": "http://purl.obolibrary.org/obo/BTO_0000545"
+},
+{
+"database": "EHDAA2",
+"description": null,
+"id": "0000726",
+"url": "http://purl.obolibrary.org/obo/EHDAA2_0000726"
+},
+{
+"database": "EHDAA",
+"description": null,
+"id": "518",
+"url": "http://purl.obolibrary.org/obo/EHDAA_518"
+},
+{
+"database": "EMAPA",
+"description": null,
+"id": "16247",
+"url": "http://www.informatics.jax.org/vocab/gxd/anatomy/EMAPA:16247"
+},
+{
+"database": "FMA",
+"description": null,
+"id": "45615",
+"url": "http://purl.org/sig/ont/fma/45615"
+},
+{
+"database": "MA",
+"description": null,
+"id": "0000917",
+"url": "http://www.informatics.jax.org/searches/AMA.cgi?id=MA:0000917"
+},
+{
+"database": "NCIT",
+"description": null,
+"id": "C34082",
+"url": "http://purl.obolibrary.org/obo/NCIT_C34082"
+},
+{
+"database": "TAO",
+"description": null,
+"id": "0000112",
+"url": "http://purl.obolibrary.org/obo/TAO_0000112"
+},
+{
+"database": "TGMA",
+"description": null,
+"id": "0001819",
+"url": "http://purl.obolibrary.org/obo/TGMA_0001819"
+},
+{
+"database": "VHOG",
+"description": null,
+"id": "0000309",
+"url": "http://purl.obolibrary.org/obo/VHOG_0000309"
+},
+{
+"database": "WBbt",
+"description": null,
+"id": "0005743",
+"url": "http://www.wormbase.org/get?name=0005743"
+},
+{
+"database": "ZFA",
+"description": null,
+"id": "0000112",
+"url": "https://zfin.org/action/ontology/term/ZFA:0000112"
+},
+{
+"database": "galen",
+"description": null,
+"id": "AlimentaryTract",
+"url": null
+},
+{
+"database": "FBbt",
+"description": null,
+"id": "00003125",
+"url": "http://flybase.org/cgi-bin/fbcvq.html?query=FBbt:00003125"
+},
+{
+"database": "MESH",
+"description": null,
+"id": "D041981",
+"url": "http://id.nlm.nih.gov/mesh/D041981"
+},
+{
+"database": "UMLS",
+"description": "ncithesaurus:Gastrointestinal_Tract",
+"id": "C0017189",
+"url": "https://uts.nlm.nih.gov/uts/umls/concept/C0017189"
+}
+],
+"ontology_iri": "http://purl.obolibrary.org/obo/uberon.owl",
+"ontology_name": "uberon",
+"ontology_prefix": "UBERON",
+"short_form": "UBERON_0001555",
+"synonyms": [
+"alimentary canal",
+"alimentary tract",
+"digestive tube",
+"gut tube",
+"gut",
+"digestive canal",
+"enteric tract"
+],
+"term_replaced_by": null
+}
+]
+},
+"_links": {
+"self": {
+"href": "http://www.ebi.ac.uk/ols4/api/ontologies/uberon/terms?obo_id=UBERON%3A0001555"
+}
+},
+"page": {
+"number": 0,
+"size": 1,
+"totalElements": 1,
+"totalPages": 1
+}
 },
 "https://www.ebi.ac.uk/ols4/api/search?q=3-%28imidazol-4-yl%29propanoate&ontology=chebi&exact=true&rows=10&fieldList=iri%2Cobo_id%2Cshort_form%2Clabel%2Cdescription%2Contology_name%2Csynonym": {
 "facet_counts": {

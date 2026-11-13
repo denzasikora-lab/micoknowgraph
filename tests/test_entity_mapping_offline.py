@@ -11,6 +11,7 @@ import subprocess
 import sys
 import tempfile
 import unittest
+from urllib.parse import urlsplit
 
 import yaml
 
@@ -161,14 +162,33 @@ class OfflineBuildTests(unittest.TestCase):
         report = json.loads((self.downloads / "build_report.json").read_text(encoding="utf-8"))
         self.assertEqual(report["stats"]["ols_live_calls"], 0)
 
-    def test_empty_cache_is_detected_by_snapshot_comparison(self):
-        """Неполный кеш не может незаметно воспроизвести опубликованный снимок."""
-        downloads = self.copy_inputs("empty-cache-inputs")
-        (downloads / "ols_cache.json").write_text("{}\n", encoding="utf-8")
-        output = self.workspace / "empty-cache-output"
-        result = self.run_builder(downloads, output)
-        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
-        self.assertTrue(any((DATA / name).read_bytes() != (output / name).read_bytes() for name in OUTPUTS))
+    def test_incomplete_cache_is_detected_without_network(self):
+        """Неполный кеш выявляется до записи TSV или побайтовым сравнением."""
+        with self.subTest(cache="empty"):
+            downloads = self.copy_inputs("empty-cache-inputs")
+            (downloads / "ols_cache.json").write_text("{}\n", encoding="utf-8")
+            output = self.workspace / "empty-cache-output"
+            result = self.run_builder(downloads, output)
+            self.assertNotEqual(result.returncode, 0)
+            self.assertRegex(result.stderr, r"assigned [^\n]+ not found on OLS and no name given")
+            for name in OUTPUTS:
+                self.assertFalse((output / name).exists())
+
+        with self.subTest(cache="search-responses-omitted"):
+            downloads = self.copy_inputs("missing-search-inputs")
+            cache_path = downloads / "ols_cache.json"
+            cache = json.loads(cache_path.read_text(encoding="utf-8"))
+            retained = {url: value for url, value in cache.items()
+                        if not urlsplit(url).path.endswith("/search")}
+            self.assertLess(len(retained), len(cache))
+            cache_path.write_text(json.dumps(retained), encoding="utf-8")
+            output = self.workspace / "missing-search-output"
+            result = self.run_builder(downloads, output)
+            self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+            self.assertEqual((DATA / "entity_kinds.tsv").read_bytes(),
+                             (output / "entity_kinds.tsv").read_bytes())
+            self.assertNotEqual((DATA / "entities_to_concepts.tsv").read_bytes(),
+                                (output / "entities_to_concepts.tsv").read_bytes())
 
     def test_checkout_inputs_and_published_outputs_are_unchanged(self):
         """Кеш, снимок и опубликованные таблицы в checkout сохраняют исходные байты."""
