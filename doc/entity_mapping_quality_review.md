@@ -6,6 +6,8 @@ https://github.com/elixir-europe/micoknowgraph/pull/3 .
 
 ## Воспроизводимость
 
+Инструкции по запуску: [entity_mapping_tests.md](entity_mapping_tests.md).
+
 Настоящий `build_mapping.py --offline` запущен на копиях трех сохраненных входов:
 `sheet_entities.json`, `details.csv` и `ols_cache.json`, с исходной классификацией.
 Обе опубликованные TSV воспроизведены побайтово. Среда локальной проверки:
